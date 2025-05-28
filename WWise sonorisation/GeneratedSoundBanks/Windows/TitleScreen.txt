@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15662850	UI_Button_Up			\Default Work Unit\UI_Button_Up	
+	18309885	UI_Button_Enter			\Default Work Unit\UI_Button_Enter	
+	156563189	UI_Button_Down			\Default Work Unit\UI_Button_Down	
+	750089663	UI_Menu_Teleport			\Default Work Unit\UI_Menu_Teleport	
+	2325560497	UI_Button_Exit			\Default Work Unit\UI_Button_Exit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	355218689	BAS_Button_Over	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Over		21240
+	404257122	BAS_Button_Enter	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Enter		117424
+	411004490	BAS_Button_Open	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Open		56256
+	713298018	BAS_Button_Close	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Close		62500
+	997981478	BAS_Button_Teleport	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Teleport		345428
+

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Language="SFX" Hash="2561315044">
+			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Default Work Unit\Destruction_Container">
+					<IncludedMemoryFiles>
+						<File Id="27952309" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_03.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_F3B7A0A3.wem</Path>
+						</File>
+						<File Id="139727450" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_01.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_01_E28D2027.wem</Path>
+						</File>
+						<File Id="187627449" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_04.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_04_393FB039.wem</Path>
+						</File>
+						<File Id="332551435" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_01.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_01_E6CCC940.wem</Path>
+						</File>
+						<File Id="337083096" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_06.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_06_C1D7CA0B.wem</Path>
+						</File>
+						<File Id="393409511" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_02.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_02_7AB6402A.wem</Path>
+						</File>
+						<File Id="679762781" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_03.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_8838BF93.wem</Path>
+						</File>
+						<File Id="783621759" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_06.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_06_6190A06A.wem</Path>
+						</File>
+						<File Id="913537241" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_04.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_04_B0A41FD7.wem</Path>
+						</File>
+						<File Id="956133415" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_02.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_02_3DF551B8.wem</Path>
+						</File>
+						<File Id="975069617" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_05.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_05_5A5C7528.wem</Path>
+						</File>
+						<File Id="983552018" Language="SFX">
+							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_05.wav</ShortName>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_05_59AAEAE5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="152105657" Language="SFX" Hash="3425276583">
+			<ObjectPath>\SoundBanks\Default Work Unit\TitleScreen</ObjectPath>
+			<ShortName>TitleScreen</ShortName>
+			<Path>TitleScreen.bnk</Path>
+			<IncludedEvents>
+				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Button_Down">
+					<IncludedMemoryFiles>
+						<File Id="411004490" Language="SFX">
+							<ShortName>BAS_Button_Open.wav</ShortName>
+							<Path>SFX\BAS_Button_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter" ObjectPath="\Events\Default Work Unit\UI_Button_Enter">
+					<IncludedMemoryFiles>
+						<File Id="404257122" Language="SFX">
+							<ShortName>BAS_Button_Enter.wav</ShortName>
+							<Path>SFX\BAS_Button_Enter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit" ObjectPath="\Events\Default Work Unit\UI_Button_Exit">
+					<IncludedMemoryFiles>
+						<File Id="713298018" Language="SFX">
+							<ShortName>BAS_Button_Close.wav</ShortName>
+							<Path>SFX\BAS_Button_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\Default Work Unit\UI_Button_Up">
+					<IncludedMemoryFiles>
+						<File Id="355218689" Language="SFX">
+							<ShortName>BAS_Button_Over.wav</ShortName>
+							<Path>SFX\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\Default Work Unit\UI_Menu_Teleport">
+					<IncludedMemoryFiles>
+						<File Id="997981478" Language="SFX">
+							<ShortName>BAS_Button_Teleport.wav</ShortName>
+							<Path>SFX\BAS_Button_Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3242625270">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Master_Volume"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
