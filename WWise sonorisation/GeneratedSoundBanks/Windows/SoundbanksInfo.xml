@@ -70,7 +70,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="3425276583">
+		<SoundBank Id="152105657" Language="SFX" Hash="1662672369">
 			<ObjectPath>\SoundBanks\Default Work Unit\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
@@ -104,6 +104,30 @@
 						<File Id="355218689" Language="SFX">
 							<ShortName>BAS_Button_Over.wav</ShortName>
 							<Path>SFX\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\Default Work Unit\UI_Inventory_Close">
+					<IncludedMemoryFiles>
+						<File Id="45930585" Language="SFX">
+							<ShortName>BAS_Inventory_Close.wav</ShortName>
+							<Path>SFX\BAS_Inventory_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2199611969" Name="UI_Inventory_Open" ObjectPath="\Events\Default Work Unit\UI_Inventory_Open">
+					<IncludedMemoryFiles>
+						<File Id="497085754" Language="SFX">
+							<ShortName>BAS_Inventory_Open.wav</ShortName>
+							<Path>SFX\BAS_Inventory_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\Default Work Unit\UI_Inventory_Roll">
+					<IncludedMemoryFiles>
+						<File Id="308610927" Language="SFX">
+							<ShortName>BAS_Inventory_Scroll.wav</ShortName>
+							<Path>SFX\BAS_Inventory_Scroll_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
