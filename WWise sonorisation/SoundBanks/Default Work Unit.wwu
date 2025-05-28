@@ -8,7 +8,6 @@
 						<ObjectRef Name="Destruction_Rock_Destroy" ID="{681D58CB-DFCE-47DD-928F-EEC4AF2A8A2C}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_VolcanicBoulder_Impact" ID="{6554164E-C971-4C88-AE61-0AF1D7037C2E}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_Container" ID="{5AEE382B-1B84-4E77-9B17-E280DA0F2B14}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Destruction_Crystal_Destroy" ID="{C72A490C-73AA-4F2C-965C-12F0B7C71DE7}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
