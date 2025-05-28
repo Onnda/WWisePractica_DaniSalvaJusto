@@ -6,9 +6,12 @@
 				<Event Name="Destruction_Container" ID="{5AEE382B-1B84-4E77-9B17-E280DA0F2B14}">
 					<ChildrenList>
 						<Action Name="" ID="{43F12C58-2DD3-4227-B34E-0C882C2BF6AC}" ShortID="32618082">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Crate" ID="{1A6FC785-9B5B-4698-ACB0-D7308F0FC948}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+									<ObjectRef Name="BAS_Crate_Destroy" ID="{9846EC92-CA19-46CD-8F0A-2065B4C92A22}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -19,7 +22,7 @@
 						<Action Name="" ID="{1B52B23E-9AFE-474C-9928-D3E77D7948F5}" ShortID="527194835">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="BAS_Button_Enter" ID="{D763DFE4-ED0C-414B-B005-D6DA5A63ED11}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+									<ObjectRef Name="BAS_Button_Enter" ID="{81E1FBF4-5705-4919-979D-33923112FD5C}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -30,7 +33,7 @@
 						<Action Name="" ID="{D8F9391F-9E99-45E4-BF2A-1934FF7FFBE7}" ShortID="544463846">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="BAS_Button_Open" ID="{FAF07231-E6B1-4F44-81FB-B9940976ACA3}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+									<ObjectRef Name="BAS_Button_Open" ID="{B34DFAEC-2D0F-4931-ACAE-FE74178814E8}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -41,7 +44,7 @@
 						<Action Name="" ID="{4938E70C-3980-491A-B263-4101B6E846BD}" ShortID="680896141">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="BAS_Button_Over" ID="{5282735C-00BF-4AA6-82AB-57CFDE156435}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+									<ObjectRef Name="BAS_Button_Over" ID="{317847EE-8CEF-4780-9BFA-88783AC58E63}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -52,7 +55,7 @@
 						<Action Name="" ID="{029C4BF2-23C5-4B8D-BC5C-53875F35EEB1}" ShortID="741357921">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="BAS_Button_Close" ID="{94746DEB-9FB5-42F0-9071-24ED418971AC}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+									<ObjectRef Name="BAS_Button_Close" ID="{D96338E4-9359-42E5-9D33-FDBDE253CD1D}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -66,7 +69,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="BAS_Button_Teleport" ID="{F60018BA-C7AB-40DA-93DC-25B3C0F8B23C}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+									<ObjectRef Name="BAS_Button_Teleport" ID="{7D49E894-7682-474F-AEF4-E47A27E22F85}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
