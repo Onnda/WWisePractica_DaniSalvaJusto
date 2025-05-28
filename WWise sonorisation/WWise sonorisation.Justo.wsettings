@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="UserProjectSettings" SchemaVersion="103">
+	<UserProjectSettingsInfo>
+		<UserProjectSettings Name="" ID="{48723852-A772-425C-B1B0-F11ACE7DDD5B}">
+			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WAG Originals\Ambient_Emitters\"/>
+				<Property Name="Event Action List\{0B184214-E68D-4F22-93D3-DBE0CFF6B446}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{0DDD2AE4-647F-47F1-B102-308B73546A53}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{380E8C85-F902-427B-B00E-6069279C101C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{49682ED8-9403-4720-AC8A-FB6E28DA509C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5AEE382B-1B84-4E77-9B17-E280DA0F2B14}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6554164E-C971-4C88-AE61-0AF1D7037C2E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{66CAA23C-1B3C-433A-81FF-4BC6BC328D7F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{681D58CB-DFCE-47DD-928F-EEC4AF2A8A2C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{84144C9E-1C55-46CA-8ACC-4C60DF1F0599}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{85B0F341-BA88-455F-8C75-DF03AB8672CA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{ACDB096F-E538-49A2-A401-EDF63CB5C079}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B3C8DC00-E507-414D-80AA-A190EAB31436}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C72A490C-73AA-4F2C-965C-12F0B7C71DE7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EDB6FA69-0A83-41AF-80F8-7DFB4959264E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="ExternalSourcesInputPath" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="ExternalSourcesOutputPath" Type="string">
+					<ValueList>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="8foylgqzL0OzzCnUFJ4Xo4AK9OyTv9NDmUmwEZwnWSsMOuDt87UZS6Z9Pj4995aUVUuEoybmN0ykoFyk+e6AbjC+UWWSqX1ChMudeL6yIin+rjFCJy/OT7v6Nwg8XEDpR2FpAXWrPEunOTpH8jfgMK4Q/S6PfGtFovVmMVkhTIU="/>
+				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
+				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
+				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
+				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
+				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
+				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
+				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="PWb5G8KRaEGAWZ2anComkw=="/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankPathUserOverride" Type="bool" Value="True"/>
+				<Property Name="SoundBankPaths" Type="string">
+					<ValueList>
+						<Value Platform="Windows">..\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Windows">Copy Streamed Files</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Windows">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+			</PropertyList>
+		</UserProjectSettings>
+	</UserProjectSettingsInfo>
+</WwiseDocument>

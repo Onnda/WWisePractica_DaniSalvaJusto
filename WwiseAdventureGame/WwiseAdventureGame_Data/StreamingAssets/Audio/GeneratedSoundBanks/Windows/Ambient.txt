@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	808171864	Ambient_Region_PineForest			\Default Work Unit\Ambient\Ambient_Region_PineForest	
+	1049266392	Ambient_Region_Woodlands			\Default Work Unit\Ambient\Ambient_Region_Woodlands	
+	1331382810	Ambient_Region_Cave			\Default Work Unit\Ambient\Ambient_Region_Cave	
+	2752753183	Ambient_Region_Village			\Default Work Unit\Ambient\Ambient_Region_Village	
+	3408705206	Ambient_Region_Desert			\Default Work Unit\Ambient\Ambient_Region_Desert	
+	4077685701	Ambient_Region_Dungeon			\Default Work Unit\Ambient\Ambient_Region_Dungeon	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2995775460	Room_Small	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	174784172	BAS_amb_dungeon_day_background_loop_01	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_dungeon_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\BAS_amb_dungeon_day_background_loop_01		24641600
+	179097618	BAS_amb_cave_background_LP	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_cave_background_LP_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\BAS_amb_cave_background_LP		14786860
+	1018568272	BAS_amb_desert_day_background_loop_01	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_desert_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\BAS_amb_desert_day_background_loop_01		21299264
+	1055512290	BAS_amb_village_day_background_loop_01	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_village_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\BAS_amb_village_day_background_loop_01		28801088
+	1055992335	BAS_amb_pineforest_night_background_loop_01	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_pineforest_night_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\BAS_amb_pineforest_night_background_loop_01		13829348
+	1071741258	BAS_amb_forest_day_background_loop_01	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_forest_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\BAS_amb_forest_day_background_loop_01		27990080
+

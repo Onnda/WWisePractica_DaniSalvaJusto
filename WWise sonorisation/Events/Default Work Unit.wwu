@@ -222,6 +222,76 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Ambient" ID="{55E361D2-E9A4-45CF-B103-B6252F92A896}" ShortID="1026007910">
+					<ChildrenList>
+						<Event Name="Ambient_Region_Cave" ID="{B3C8DC00-E507-414D-80AA-A190EAB31436}">
+							<ChildrenList>
+								<Action Name="" ID="{9D4EC23C-6FDB-44EF-BD27-C55A03737206}" ShortID="458522329">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_amb_cave_background_LP" ID="{447797BC-B532-46EF-8914-0516613266B3}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Desert" ID="{49682ED8-9403-4720-AC8A-FB6E28DA509C}">
+							<ChildrenList>
+								<Action Name="" ID="{B5C39EFC-DADA-4094-92E3-056555F2A171}" ShortID="627391142">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Desert" ID="{F112A784-3627-41B7-B6B9-24B452FBD270}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Dungeon" ID="{380E8C85-F902-427B-B00E-6069279C101C}">
+							<ChildrenList>
+								<Action Name="" ID="{435A1802-0448-4432-831A-BD98EC2E18FB}" ShortID="685442894">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_amb_dungeon_day_background_loop_01" ID="{5ABB19F4-2664-40A6-9619-91DF496B6AFB}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_PineForest" ID="{84144C9E-1C55-46CA-8ACC-4C60DF1F0599}">
+							<ChildrenList>
+								<Action Name="" ID="{AAC1518C-A3A4-466C-822D-A2D0FE6260C2}" ShortID="541733456">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pineforest" ID="{95C76F1B-4DDD-42E4-88A3-76FA2028210F}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Village" ID="{EDB6FA69-0A83-41AF-80F8-7DFB4959264E}">
+							<ChildrenList>
+								<Action Name="" ID="{38953756-75C1-46E3-86CB-95A88DC6FDC7}" ShortID="79887042">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Village" ID="{55EF152E-79D0-4E39-86A9-69CA71F9F9C5}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Woodlands" ID="{0DDD2AE4-647F-47F1-B102-308B73546A53}">
+							<ChildrenList>
+								<Action Name="" ID="{94712159-58D9-4489-8E2B-10D0C13BA42C}" ShortID="844809382">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forest" ID="{FA998BEC-3A93-498A-8B5F-82F6F671A478}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

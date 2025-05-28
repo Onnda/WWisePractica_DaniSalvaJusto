@@ -8,6 +8,12 @@
 						<Property Name="InitialValue" Type="Real64" Value="80"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Time_of_Day" ID="{D8FE69BE-CBEC-425C-A4CA-0968C821040D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="8"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

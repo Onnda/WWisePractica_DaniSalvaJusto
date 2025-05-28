@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="729543454">
+		<SoundBank Id="133642231" Language="SFX" Hash="2752754142">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -20,51 +20,51 @@
 					<IncludedMemoryFiles>
 						<File Id="27952309" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_03.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_050DC728.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_286503FD.wem</Path>
 						</File>
 						<File Id="139727450" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_01.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_01_ACFFA093.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_01_05A15EF6.wem</Path>
 						</File>
 						<File Id="187627449" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_04.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_04_BA3AF384.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_04_85E86DDA.wem</Path>
 						</File>
 						<File Id="332551435" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_01.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_01_3DCB8538.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_01_CC8B9A5E.wem</Path>
 						</File>
 						<File Id="337083096" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_06.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_06_D7B09C33.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_06_572B9FF4.wem</Path>
 						</File>
 						<File Id="393409511" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_02.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_02_AA87CE07.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_02_FA1B9DF7.wem</Path>
 						</File>
 						<File Id="679762781" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_03.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_8838BF93.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_03_6D15146A.wem</Path>
 						</File>
 						<File Id="783621759" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_06.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_06_35CC6022.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_06_430AD553.wem</Path>
 						</File>
 						<File Id="913537241" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_04.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_04_93875B8A.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_04_5A74E5A0.wem</Path>
 						</File>
 						<File Id="956133415" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_02.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_02_3DF551B8.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_02_E23F2196.wem</Path>
 						</File>
 						<File Id="975069617" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_05.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_05_D1733712.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_05_A177A02D.wem</Path>
 						</File>
 						<File Id="983552018" Language="SFX">
 							<ShortName>BAS_Crate_Destroy\BAS_Crate_Destroy_05.wav</ShortName>
-							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_05_59AAEAE5.wem</Path>
+							<Path>SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_05_E39B1A25.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -80,23 +80,23 @@
 					<IncludedMemoryFiles>
 						<File Id="54641769" Language="SFX">
 							<ShortName>BAS_Destroy_Rock\BAS_Destroy_Rock_01.wav</ShortName>
-							<Path>SFX\BAS_Destroy_Rock\BAS_Destroy_Rock_01_F6110803.wem</Path>
+							<Path>SFX\BAS_Destroy_Rock\BAS_Destroy_Rock_01_CED0FA44.wem</Path>
 						</File>
 						<File Id="242778460" Language="SFX">
 							<ShortName>BAS_Destroy_Rock\BAS_Destroy_Rock_03.wav</ShortName>
-							<Path>SFX\BAS_Destroy_Rock\BAS_Destroy_Rock_03_792D7C78.wem</Path>
+							<Path>SFX\BAS_Destroy_Rock\BAS_Destroy_Rock_03_8664EA75.wem</Path>
 						</File>
 						<File Id="494329004" Language="SFX">
 							<ShortName>BAS_Destroy_Rock\BAS_Destroy_Rock_01.wav</ShortName>
-							<Path>SFX\BAS_Destroy_Rock\BAS_Destroy_Rock_01_3EEFC57C.wem</Path>
+							<Path>SFX\BAS_Destroy_Rock\BAS_Destroy_Rock_01_8F2C79EA.wem</Path>
 						</File>
 						<File Id="719299712" Language="SFX">
 							<ShortName>BAS_Destroy_Rock\BAS_Destroy_Rock_02.wav</ShortName>
-							<Path>SFX\BAS_Destroy_Rock\BAS_Destroy_Rock_02_7C976C73.wem</Path>
+							<Path>SFX\BAS_Destroy_Rock\BAS_Destroy_Rock_02_0BB1898B.wem</Path>
 						</File>
 						<File Id="1001304575" Language="SFX">
 							<ShortName>BAS_Destroy_Rock\BAS_Destroy_Rock_03.wav</ShortName>
-							<Path>SFX\BAS_Destroy_Rock\BAS_Destroy_Rock_03_4B5BA204.wem</Path>
+							<Path>SFX\BAS_Destroy_Rock\BAS_Destroy_Rock_03_4788FE97.wem</Path>
 						</File>
 						<File Id="1071517336" Language="SFX">
 							<ShortName>BAS_Destroy_Rock\BAS_Destroy_Rock_02.wav</ShortName>
@@ -108,17 +108,17 @@
 					<IncludedMemoryFiles>
 						<File Id="81464447" Language="SFX">
 							<ShortName>Volcanic Boulder\Explosion.wav</ShortName>
-							<Path>SFX\Volcanic Boulder\Explosion_1C98EDF9.wem</Path>
+							<Path>SFX\Volcanic Boulder\Explosion_C6DB4755.wem</Path>
 						</File>
 						<File Id="637709834" Language="SFX">
 							<ShortName>Volcanic Boulder\DebrisDirt.wav</ShortName>
-							<Path>SFX\Volcanic Boulder\DebrisDirt_41E093FD.wem</Path>
+							<Path>SFX\Volcanic Boulder\DebrisDirt_0F7820FA.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="2947033372">
+		<SoundBank Id="152105657" Language="SFX" Hash="688341258">
 			<ObjectPath>\SoundBanks\Default Work Unit\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
@@ -127,7 +127,7 @@
 					<IncludedMemoryFiles>
 						<File Id="451357809" Language="SFX">
 							<ShortName>Achievements.wav</ShortName>
-							<Path>SFX\Achievements_A328064C.wem</Path>
+							<Path>SFX\Achievements_9CF74EDB.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -215,7 +215,7 @@
 					<IncludedMemoryFiles>
 						<File Id="508404528" Language="SFX">
 							<ShortName>BAS_QuestRoll_Close.wav</ShortName>
-							<Path>SFX\BAS_QuestRoll_Close_BAA3FE74.wem</Path>
+							<Path>SFX\BAS_QuestRoll_Close_54625F0C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -231,19 +231,149 @@
 					<IncludedMemoryFiles>
 						<File Id="498027075" Language="SFX">
 							<ShortName>BAS_QuestRoll_Open.wav</ShortName>
-							<Path>SFX\BAS_QuestRoll_Open_79A5F1C6.wem</Path>
+							<Path>SFX\BAS_QuestRoll_Open_FDB5D30B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3242625270">
+		<SoundBank Id="608898761" Language="SFX" Hash="1709838280">
+			<ObjectPath>\SoundBanks\Default Work Unit\Dungeon</ObjectPath>
+			<ShortName>Dungeon</ShortName>
+			<Path>Dungeon.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4077685701" Name="Ambient_Region_Dungeon" ObjectPath="\Events\Default Work Unit\Ambient\Ambient_Region_Dungeon">
+					<IncludedMemoryFiles>
+						<File Id="174784172" Language="SFX">
+							<ShortName>BAS_amb_dungeon_day_background_loop_01.wav</ShortName>
+							<Path>SFX\BAS_amb_dungeon_day_background_loop_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4220934124">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<GameParameters>
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Master_Volume"/>
 			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1421251628" Language="SFX" Hash="1802952772">
+			<ObjectPath>\SoundBanks\Default Work Unit\Woodlands</ObjectPath>
+			<ShortName>Woodlands</ShortName>
+			<Path>Woodlands.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1049266392" Name="Ambient_Region_Woodlands" ObjectPath="\Events\Default Work Unit\Ambient\Ambient_Region_Woodlands">
+					<IncludedMemoryFiles>
+						<File Id="413838242" Language="SFX">
+							<ShortName>amb_forest_night_background_loop_04.wav</ShortName>
+							<Path>SFX\amb_forest_night_background_loop_04_10C4C929.wem</Path>
+						</File>
+						<File Id="781801148" Language="SFX">
+							<ShortName>amb_forest_night_background_loop_02.wav</ShortName>
+							<Path>SFX\amb_forest_night_background_loop_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1071741258" Language="SFX">
+							<ShortName>BAS_amb_forest_day_background_loop_01.wav</ShortName>
+							<Path>SFX\BAS_amb_forest_day_background_loop_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1850388778" Language="SFX" Hash="2295668586">
+			<ObjectPath>\SoundBanks\Default Work Unit\Desert</ObjectPath>
+			<ShortName>Desert</ShortName>
+			<Path>Desert.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3408705206" Name="Ambient_Region_Desert" ObjectPath="\Events\Default Work Unit\Ambient\Ambient_Region_Desert">
+					<IncludedMemoryFiles>
+						<File Id="461775451" Language="SFX">
+							<ShortName>BAS_amb_desert_night_background_loop_01.wav</ShortName>
+							<Path>SFX\BAS_amb_desert_night_background_loop_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2201105581" Language="SFX" Hash="540014219">
+			<ObjectPath>\SoundBanks\Default Work Unit\Credits</ObjectPath>
+			<ShortName>Credits</ShortName>
+			<Path>Credits.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2482365692" Language="SFX" Hash="3353133030">
+			<ObjectPath>\SoundBanks\Default Work Unit\PineForest</ObjectPath>
+			<ShortName>PineForest</ShortName>
+			<Path>PineForest.bnk</Path>
+			<IncludedEvents>
+				<Event Id="808171864" Name="Ambient_Region_PineForest" ObjectPath="\Events\Default Work Unit\Ambient\Ambient_Region_PineForest">
+					<IncludedMemoryFiles>
+						<File Id="1055992335" Language="SFX">
+							<ShortName>BAS_amb_pineforest_night_background_loop_01.wav</ShortName>
+							<Path>SFX\BAS_amb_pineforest_night_background_loop_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1071741258" Language="SFX">
+							<ShortName>BAS_amb_forest_day_background_loop_01.wav</ShortName>
+							<Path>SFX\BAS_amb_forest_day_background_loop_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3945572659" Language="SFX" Hash="4248134799">
+			<ObjectPath>\SoundBanks\Default Work Unit\Village</ObjectPath>
+			<ShortName>Village</ShortName>
+			<Path>Village.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Default Work Unit\Ambient\Ambient_Region_Village">
+					<IncludedMemoryFiles>
+						<File Id="753478014" Language="SFX">
+							<ShortName>BAS_amb_village_night_background_loop_01.wav</ShortName>
+							<Path>SFX\BAS_amb_village_night_background_loop_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1055512290" Language="SFX">
+							<ShortName>BAS_amb_village_day_background_loop_01.wav</ShortName>
+							<Path>SFX\BAS_amb_village_day_background_loop_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="4122393694" Language="SFX" Hash="416766581">
+			<ObjectPath>\SoundBanks\Default Work Unit\Cave</ObjectPath>
+			<ShortName>Cave</ShortName>
+			<Path>Cave.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Default Work Unit\Ambient\Ambient_Region_Cave">
+					<IncludedMemoryFiles>
+						<File Id="179097618" Language="SFX">
+							<ShortName>BAS_amb_cave_background_LP.wav</ShortName>
+							<Path>SFX\BAS_amb_cave_background_LP_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Default Work Unit\Destruction\Destruction_Crystal_Destroy"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="699953274" Language="SFX">
+					<ShortName>BAS_Crystals_Destroy\BAS_Crystals_Destroy.wav</ShortName>
+					<Path>SFX\BAS_Crystals_Destroy\BAS_Crystals_Destroy_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

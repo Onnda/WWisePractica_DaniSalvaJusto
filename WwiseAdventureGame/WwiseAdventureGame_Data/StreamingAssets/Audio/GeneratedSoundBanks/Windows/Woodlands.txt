@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1049266392	Ambient_Region_Woodlands			\Default Work Unit\Ambient\Ambient_Region_Woodlands	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	413838242	amb_forest_night_background_loop_04	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\amb_forest_night_background_loop_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Forest\Night_forest\amb_forest_night_background_loop_04		3919896
+	781801148	amb_forest_night_background_loop_02	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\amb_forest_night_background_loop_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Forest\Night_forest\amb_forest_night_background_loop_02		4343864
+	1071741258	BAS_amb_forest_day_background_loop_01	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_forest_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Forest\BAS_amb_forest_day_background_loop_01		27990080
+
