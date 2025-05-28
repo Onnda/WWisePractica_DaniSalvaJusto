@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\justots\Documents\WwiseProjects\WWise sonorisation\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\justots\Documents\WwiseProjects\WWise sonorisation\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\justots\Downloads\5. WAG (Deliverable)\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\justots\Documents\WwiseProjects\WWise sonorisation\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Language="SFX" Hash="1282823611">
+			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Default Work Unit\Destruction_Container">
+					<IncludedMemoryFiles>
+						<File Id="257584250" Language="SFX">
+							<ShortName>Crate\BAS_Crate_Destroy_02.wav</ShortName>
+							<Path>SFX\Crate\BAS_Crate_Destroy_02_487DB786.wem</Path>
+						</File>
+						<File Id="358476615" Language="SFX">
+							<ShortName>Crate\BAS_Crate_Destroy_05.wav</ShortName>
+							<Path>SFX\Crate\BAS_Crate_Destroy_05_90B86C17.wem</Path>
+						</File>
+						<File Id="588672309" Language="SFX">
+							<ShortName>Crate\BAS_Crate_Destroy_01.wav</ShortName>
+							<Path>SFX\Crate\BAS_Crate_Destroy_01_DEE78B7A.wem</Path>
+						</File>
+						<File Id="736470859" Language="SFX">
+							<ShortName>Crate\BAS_Crate_Destroy_06.wav</ShortName>
+							<Path>SFX\Crate\BAS_Crate_Destroy_06_EB14FA94.wem</Path>
+						</File>
+						<File Id="1017162906" Language="SFX">
+							<ShortName>Crate\BAS_Crate_Destroy_03.wav</ShortName>
+							<Path>SFX\Crate\BAS_Crate_Destroy_03_0535BF18.wem</Path>
+						</File>
+						<File Id="1028963582" Language="SFX">
+							<ShortName>Crate\BAS_Crate_Destroy_04.wav</ShortName>
+							<Path>SFX\Crate\BAS_Crate_Destroy_04_79B250E8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="152105657" Language="SFX" Hash="2072755995">
+			<ObjectPath>\SoundBanks\Default Work Unit\TitleScreen</ObjectPath>
+			<ShortName>TitleScreen</ShortName>
+			<Path>TitleScreen.bnk</Path>
+			<IncludedEvents>
+				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Button_Down">
+					<IncludedMemoryFiles>
+						<File Id="411004490" Language="SFX">
+							<ShortName>BAS_Button_Open.wav</ShortName>
+							<Path>SFX\BAS_Button_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter" ObjectPath="\Events\Default Work Unit\UI_Button_Enter">
+					<IncludedMemoryFiles>
+						<File Id="404257122" Language="SFX">
+							<ShortName>BAS_Button_Enter.wav</ShortName>
+							<Path>SFX\BAS_Button_Enter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit" ObjectPath="\Events\Default Work Unit\UI_Button_Exit">
+					<IncludedMemoryFiles>
+						<File Id="713298018" Language="SFX">
+							<ShortName>BAS_Button_Close.wav</ShortName>
+							<Path>SFX\BAS_Button_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\Default Work Unit\UI_Button_Up">
+					<IncludedMemoryFiles>
+						<File Id="355218689" Language="SFX">
+							<ShortName>BAS_Button_Over.wav</ShortName>
+							<Path>SFX\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\Default Work Unit\UI_Menu_Teleport">
+					<IncludedMemoryFiles>
+						<File Id="997981478" Language="SFX">
+							<ShortName>BAS_Button_Teleport.wav</ShortName>
+							<Path>SFX\BAS_Button_Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

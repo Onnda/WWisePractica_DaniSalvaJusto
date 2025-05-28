@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EB6C68B1-FBE5-4B58-A145-9992FEA8DDEE}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{EB6C68B1-FBE5-4B58-A145-9992FEA8DDEE}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="MenuSlider_Master_Volume" ID="{50BF1CAD-0E76-442F-9069-554D20E1B52F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="80"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

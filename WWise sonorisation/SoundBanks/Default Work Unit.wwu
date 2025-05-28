@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1BF9663D-91C2-4168-8059-9D9A9C2A2693}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{1BF9663D-91C2-4168-8059-9D9A9C2A2693}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="General" ID="{A3844B55-E626-4C37-A4A0-5CA4F9EE806E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Destruction_Container" ID="{5AEE382B-1B84-4E77-9B17-E280DA0F2B14}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="TitleScreen" ID="{4231AEFE-2F27-4FCE-BBFA-37083C5C40E9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI_Menu_Teleport" ID="{A32C4A1D-91DF-4380-A0F8-48F0053E2EB0}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Down" ID="{CE5BBD4F-856A-46B7-B467-C4F90D33D88D}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Exit" ID="{E1892082-0F13-482A-9C38-434BEAAFF7A4}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Up" ID="{73527D28-2AE3-4924-96AF-6F859EB6918F}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Enter" ID="{69EAE792-EC8F-4943-B70D-CBCCFEB106FC}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

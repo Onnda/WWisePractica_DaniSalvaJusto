@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4254124015	Destruction_Container			\Default Work Unit\Destruction_Container	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	257584250	BAS_Crate_Destroy_02	C:\Users\justots\Documents\WwiseProjects\WWise sonorisation\.cache\Windows\SFX\Crate\BAS_Crate_Destroy_02_487DB786.wem		\Actor-Mixer Hierarchy\Default Work Unit\BAS_Crate_Destroy\Crate\BAS_Crate_Destroy_02		28602
+	358476615	BAS_Crate_Destroy_05	C:\Users\justots\Documents\WwiseProjects\WWise sonorisation\.cache\Windows\SFX\Crate\BAS_Crate_Destroy_05_90B86C17.wem		\Actor-Mixer Hierarchy\Default Work Unit\BAS_Crate_Destroy\Crate\BAS_Crate_Destroy_05		21506
+	588672309	BAS_Crate_Destroy_01	C:\Users\justots\Documents\WwiseProjects\WWise sonorisation\.cache\Windows\SFX\Crate\BAS_Crate_Destroy_01_DEE78B7A.wem		\Actor-Mixer Hierarchy\Default Work Unit\BAS_Crate_Destroy\Crate\BAS_Crate_Destroy_01		21224
+	736470859	BAS_Crate_Destroy_06	C:\Users\justots\Documents\WwiseProjects\WWise sonorisation\.cache\Windows\SFX\Crate\BAS_Crate_Destroy_06_EB14FA94.wem		\Actor-Mixer Hierarchy\Default Work Unit\BAS_Crate_Destroy\Crate\BAS_Crate_Destroy_06		25854
+	1017162906	BAS_Crate_Destroy_03	C:\Users\justots\Documents\WwiseProjects\WWise sonorisation\.cache\Windows\SFX\Crate\BAS_Crate_Destroy_03_0535BF18.wem		\Actor-Mixer Hierarchy\Default Work Unit\BAS_Crate_Destroy\Crate\BAS_Crate_Destroy_03		23844
+	1028963582	BAS_Crate_Destroy_04	C:\Users\justots\Documents\WwiseProjects\WWise sonorisation\.cache\Windows\SFX\Crate\BAS_Crate_Destroy_04_79B250E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\BAS_Crate_Destroy\Crate\BAS_Crate_Destroy_04		25260
+
