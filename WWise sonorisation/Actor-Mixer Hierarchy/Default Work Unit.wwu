@@ -3,559 +3,8 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="BAS_Crate_Destroy" ID="{9846EC92-CA19-46CD-8F0A-2065B4C92A22}" ShortID="1016895960">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{DC5F88C4-C448-4CE5-A2E4-43F2E17D611D}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="300"/>
-											<Property Name="Min" Type="Real64" Value="-300"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
-						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-15</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<RandomSequenceContainer Name="BAS_Crate_Destroy_Head" ID="{013D60FE-156D-4B99-9AD4-86AFB4FBD553}" ShortID="1029574126">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{4B120523-E99E-45D9-BF30-72EBCEB1BFDF}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="300"/>
-													<Property Name="Min" Type="Real64" Value="-300"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="BAS_Crate_Destroy_01" ID="{E6CB1140-7C7A-4863-A4E6-C2BBF82261AC}" ShortID="105061643">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_01" ID="{0B959C61-9574-411A-A794-2099CC5E84E1}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.464893266475645"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="139727450"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_01" ID="{0B959C61-9574-411A-A794-2099CC5E84E1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BAS_Crate_Destroy_02" ID="{08CCDF9C-96CD-476B-9C03-CB9C0E62D3EE}" ShortID="291992679">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_02" ID="{CFC02E07-E5DC-4ECC-8599-1A782F4DAF3C}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.736795009551098"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="393409511"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_02" ID="{CFC02E07-E5DC-4ECC-8599-1A782F4DAF3C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BAS_Crate_Destroy_03" ID="{848CBC83-7544-4578-9277-A8D4B12C61A3}" ShortID="37179510">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_03" ID="{7E19CDCF-CC59-4DBA-A453-1FB52255D625}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.457585422636103"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="27952309"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_03" ID="{7E19CDCF-CC59-4DBA-A453-1FB52255D625}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BAS_Crate_Destroy_04" ID="{2B1E37DF-15B2-4524-863C-58B12AF20A73}" ShortID="756573364">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_04" ID="{CCBA9234-F46C-46BD-9790-C029DB9F28A2}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.437446275071634"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_04.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="187627449"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_04" ID="{CCBA9234-F46C-46BD-9790-C029DB9F28A2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BAS_Crate_Destroy_05" ID="{4CA015C2-F45F-4A1A-AB34-6A04252DD28D}" ShortID="1014469257">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_05" ID="{008F183B-6E7A-46D1-8A7B-5C94068C8F22}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.332855390401146"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_05.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="975069617"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_05" ID="{008F183B-6E7A-46D1-8A7B-5C94068C8F22}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BAS_Crate_Destroy_06" ID="{C6AF7BC6-2ADF-40BE-BCEC-74411C5BE6E2}" ShortID="977109224">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_06" ID="{27B22993-964C-4F77-8C66-85B0C0CD98A1}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.44399814947469"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_06.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="783621759"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_06" ID="{27B22993-964C-4F77-8C66-85B0C0CD98A1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="BAS_Crate_Destroy_Tail" ID="{6B37FA11-80D8-41A1-8604-588F4378ED95}" ShortID="118598320">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{272D452D-C5D0-4ACA-929B-181792B83B84}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="300"/>
-													<Property Name="Min" Type="Real64" Value="-300"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="BAS_Crate_Destroy_01" ID="{7820F2AA-A10F-4176-AACE-3A535DDD23E1}" ShortID="267199321">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_01" ID="{0E0DDEEB-0523-4B68-BC6D-415995B543B1}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.347334049665712"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.347334049665712"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="332551435"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_01" ID="{0E0DDEEB-0523-4B68-BC6D-415995B543B1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BAS_Crate_Destroy_02" ID="{742B3497-41ED-4450-A07B-E50FE0D3D41C}" ShortID="359373716">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_02" ID="{ABFAA007-4923-43D5-B05E-3EB956E46874}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.58391535339064"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.58391535339064"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="956133415"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_02" ID="{ABFAA007-4923-43D5-B05E-3EB956E46874}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BAS_Crate_Destroy_03" ID="{9511BD7A-83F0-4B62-9F99-6F9E5B7EA164}" ShortID="1053522361">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_03" ID="{96F465A2-C7DD-435B-9F1C-0FC7A7CA401B}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.455694573782235"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.455694573782235"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="679762781"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_03" ID="{96F465A2-C7DD-435B-9F1C-0FC7A7CA401B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BAS_Crate_Destroy_04" ID="{88011BA0-C78F-43C6-81E1-91D67EB16B00}" ShortID="649130708">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_04" ID="{EBEA0694-701C-4987-9F32-398EA525D7AB}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.343395325931232"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.343395325931232"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_04.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="913537241"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_04" ID="{EBEA0694-701C-4987-9F32-398EA525D7AB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BAS_Crate_Destroy_05" ID="{A1498BD8-3EAA-475E-AD7C-5CFD3018B54D}" ShortID="386660944">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_05" ID="{B459E4C8-1519-455C-B4FB-75DF2851BE8C}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.335737255253104"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.335737255253104"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_05.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="983552018"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_05" ID="{B459E4C8-1519-455C-B4FB-75DF2851BE8C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BAS_Crate_Destroy_06" ID="{3B573F8D-9E6D-49F3-A092-0ECA39AA1C76}" ShortID="1050643051">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BAS_Crate_Destroy_06" ID="{E589E697-453A-45BF-A2B6-08F3A748C5C6}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.496233225883477"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.496233225883477"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_06.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="337083096"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="BAS_Crate_Destroy_06" ID="{E589E697-453A-45BF-A2B6-08F3A748C5C6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
-					</ChildrenList>
-					<ObjectLists/>
-				</RandomSequenceContainer>
 				<Folder Name="UI" ID="{EBD04899-F139-456E-BC73-649D5B968FD9}" ShortID="198861550">
 					<ChildrenList>
-						<Sound Name="BAS_Button_Close" ID="{D96338E4-9359-42E5-9D33-FDBDE253CD1D}" ShortID="454377605">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-13</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_Button_Close" ID="{FD8BC537-27A6-4BAB-B14D-9F24792EDEE1}">
-									<Language>SFX</Language>
-									<AudioFile>BAS_Button_Close.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="713298018"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_Button_Close" ID="{FD8BC537-27A6-4BAB-B14D-9F24792EDEE1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="BAS_Button_Enter" ID="{81E1FBF4-5705-4919-979D-33923112FD5C}" ShortID="83852939">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_Button_Enter" ID="{3B499A96-FFA1-4BEC-BBCC-868CC20A2AB4}">
-									<Language>SFX</Language>
-									<AudioFile>BAS_Button_Enter.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="404257122"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_Button_Enter" ID="{3B499A96-FFA1-4BEC-BBCC-868CC20A2AB4}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="BAS_Button_Open" ID="{B34DFAEC-2D0F-4931-ACAE-FE74178814E8}" ShortID="821102889">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_Button_Open" ID="{AE41174A-3223-43A3-B6B3-04E90E6B16E3}">
-									<Language>SFX</Language>
-									<AudioFile>BAS_Button_Open.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="411004490"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_Button_Open" ID="{AE41174A-3223-43A3-B6B3-04E90E6B16E3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="BAS_Button_Over" ID="{317847EE-8CEF-4780-9BFA-88783AC58E63}" ShortID="506143514">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_Button_Over" ID="{A6811C60-C971-4D8E-80F6-F92E8928CA25}">
-									<Language>SFX</Language>
-									<AudioFile>BAS_Button_Over.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="355218689"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_Button_Over" ID="{A6811C60-C971-4D8E-80F6-F92E8928CA25}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="BAS_Button_Teleport" ID="{7D49E894-7682-474F-AEF4-E47A27E22F85}" ShortID="353555710">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_Button_Teleport" ID="{054229EB-9752-4887-BEB9-E1AFD0609A72}">
-									<Language>SFX</Language>
-									<AudioFile>BAS_Button_Teleport.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="997981478"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_Button_Teleport" ID="{054229EB-9752-4887-BEB9-E1AFD0609A72}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Folder Name="Inventory" ID="{81DE9EF9-408E-486A-B1CD-0DDC8EE4138C}" ShortID="614806057">
 							<ChildrenList>
 								<Sound Name="BAS_Inventory_Close" ID="{D8A94105-8B71-4365-B0E6-87EF3E52B619}" ShortID="347824112">
@@ -625,6 +74,1095 @@
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="BAS_Inventory_Scroll" ID="{8860CDC1-0284-4DEC-883B-62389F8F1CA1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="QuestRoll" ID="{0C6708DA-E4FF-42FD-BB3C-9A8A40B50861}" ShortID="834387350">
+							<ChildrenList>
+								<Sound Name="BAS_QuestRoll_Close" ID="{C4577754-997D-4CFF-A1B0-F1FDE603BB6F}" ShortID="819854898">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_QuestRoll_Close" ID="{88066B9C-DD91-4095-BDAF-AD3579BD700E}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_QuestRoll_Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="569655150"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_QuestRoll_Close" ID="{88066B9C-DD91-4095-BDAF-AD3579BD700E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_QuestRoll_Open" ID="{2388D1EC-C28C-488A-B57F-3A19FBB57935}" ShortID="612522717">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_QuestRoll_Open" ID="{C692D960-7FB4-4430-BA9F-6CB7F304A20A}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_QuestRoll_Open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="944782391"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_QuestRoll_Open" ID="{C692D960-7FB4-4430-BA9F-6CB7F304A20A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_QuestRoll_Hide" ID="{1CA3C3A6-F4A9-44F8-8071-EDC994E9F1AE}" ShortID="1008826583">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_QuestRoll_Close" ID="{F656C88A-46C5-40E1-94E0-20A1503F9A29}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.345617706838833"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.451316325920612"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.231530308464849"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.822100370636059"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BAS_QuestRoll_Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="508404528"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_QuestRoll_Close" ID="{F656C88A-46C5-40E1-94E0-20A1503F9A29}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_QuestRoll_Show" ID="{3F9A9C27-51BA-406C-94FF-42F27E04BD6A}" ShortID="522798037">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_QuestRoll_Open" ID="{D922015F-3D45-489E-A04C-839B6BB5E960}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.190377032520325"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.355786585365854"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.177893292682927"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.724056910569105"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BAS_QuestRoll_Open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="498027075"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_QuestRoll_Open" ID="{D922015F-3D45-489E-A04C-839B6BB5E960}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Achievements" ID="{828D8BCE-3690-4319-B497-B5DF0795EE4D}" ShortID="25665686">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Achievements" ID="{F217CAF2-9BD8-4751-BE95-B6FA7567E971}">
+											<Language>SFX</Language>
+											<AudioFile>Achievements.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="443239874"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Achievements" ID="{F217CAF2-9BD8-4751-BE95-B6FA7567E971}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Complete" ID="{D97FFC52-0A8E-43C2-AF18-EC7D4E106741}" ShortID="942896321">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Achievements" ID="{F93B6F71-69E9-4374-BAD1-BB7C9C6608A3}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.419225120942686"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.04000078080013"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Achievements.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="451357809"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Achievements" ID="{F93B6F71-69E9-4374-BAD1-BB7C9C6608A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Buttons" ID="{3875856E-4B64-494D-B608-927DF691F10F}" ShortID="864312302">
+							<ChildrenList>
+								<Sound Name="BAS_Button_Close" ID="{D96338E4-9359-42E5-9D33-FDBDE253CD1D}" ShortID="454377605">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Button_Close" ID="{FD8BC537-27A6-4BAB-B14D-9F24792EDEE1}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Button_Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="713298018"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Button_Close" ID="{FD8BC537-27A6-4BAB-B14D-9F24792EDEE1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Button_Enter" ID="{81E1FBF4-5705-4919-979D-33923112FD5C}" ShortID="83852939">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Button_Enter" ID="{3B499A96-FFA1-4BEC-BBCC-868CC20A2AB4}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Button_Enter.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="404257122"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Button_Enter" ID="{3B499A96-FFA1-4BEC-BBCC-868CC20A2AB4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Button_Open" ID="{B34DFAEC-2D0F-4931-ACAE-FE74178814E8}" ShortID="821102889">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Button_Open" ID="{AE41174A-3223-43A3-B6B3-04E90E6B16E3}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Button_Open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="411004490"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Button_Open" ID="{AE41174A-3223-43A3-B6B3-04E90E6B16E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Button_Over" ID="{317847EE-8CEF-4780-9BFA-88783AC58E63}" ShortID="506143514">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Button_Over" ID="{A6811C60-C971-4D8E-80F6-F92E8928CA25}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Button_Over.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="355218689"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Button_Over" ID="{A6811C60-C971-4D8E-80F6-F92E8928CA25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Button_Teleport" ID="{7D49E894-7682-474F-AEF4-E47A27E22F85}" ShortID="353555710">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Button_Teleport" ID="{054229EB-9752-4887-BEB9-E1AFD0609A72}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Button_Teleport.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="997981478"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Button_Teleport" ID="{054229EB-9752-4887-BEB9-E1AFD0609A72}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Destruction" ID="{CD7AD682-2428-4328-AC5A-64FD3BA3CF9C}" ShortID="244654466">
+					<ChildrenList>
+						<Folder Name="BAS_Crystals_Destroy" ID="{3C83EB58-B0CF-491C-BF2F-7FC5B4E07C26}" ShortID="602018491">
+							<ChildrenList>
+								<Sound Name="BAS_Crystals_Destroy" ID="{138BACF7-0482-4C5D-8A55-B2C7B29CB4F8}" ShortID="281167504">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Crystals_Destroy" ID="{96A2A636-0327-4143-B6F5-11D125BA60BA}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Crystals_Destroy\BAS_Crystals_Destroy.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="699953274"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Crystals_Destroy" ID="{96A2A636-0327-4143-B6F5-11D125BA60BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<RandomSequenceContainer Name="BAS_Crate_Destroy" ID="{73B1184D-3BAA-459F-BB15-C2CFA6884F18}" ShortID="243797561">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F4C0BB90-ED7A-4622-8520-82A0399E2BBB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="BAS_Crate_Destroy_Head" ID="{013D60FE-156D-4B99-9AD4-86AFB4FBD553}" ShortID="1029574126">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4B120523-E99E-45D9-BF30-72EBCEB1BFDF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BAS_Crate_Destroy_01" ID="{E6CB1140-7C7A-4863-A4E6-C2BBF82261AC}" ShortID="105061643">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_01" ID="{0B959C61-9574-411A-A794-2099CC5E84E1}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.464893266475645"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="139727450"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_01" ID="{0B959C61-9574-411A-A794-2099CC5E84E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Crate_Destroy_02" ID="{08CCDF9C-96CD-476B-9C03-CB9C0E62D3EE}" ShortID="291992679">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_02" ID="{CFC02E07-E5DC-4ECC-8599-1A782F4DAF3C}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.736795009551098"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="393409511"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_02" ID="{CFC02E07-E5DC-4ECC-8599-1A782F4DAF3C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Crate_Destroy_03" ID="{848CBC83-7544-4578-9277-A8D4B12C61A3}" ShortID="37179510">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_03" ID="{7E19CDCF-CC59-4DBA-A453-1FB52255D625}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.457585422636103"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="27952309"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_03" ID="{7E19CDCF-CC59-4DBA-A453-1FB52255D625}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Crate_Destroy_04" ID="{2B1E37DF-15B2-4524-863C-58B12AF20A73}" ShortID="756573364">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_04" ID="{CCBA9234-F46C-46BD-9790-C029DB9F28A2}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.437446275071634"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="187627449"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_04" ID="{CCBA9234-F46C-46BD-9790-C029DB9F28A2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Crate_Destroy_05" ID="{4CA015C2-F45F-4A1A-AB34-6A04252DD28D}" ShortID="1014469257">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_05" ID="{008F183B-6E7A-46D1-8A7B-5C94068C8F22}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.332855390401146"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="975069617"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_05" ID="{008F183B-6E7A-46D1-8A7B-5C94068C8F22}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Crate_Destroy_06" ID="{C6AF7BC6-2ADF-40BE-BCEC-74411C5BE6E2}" ShortID="977109224">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_06" ID="{27B22993-964C-4F77-8C66-85B0C0CD98A1}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.44399814947469"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="783621759"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_06" ID="{27B22993-964C-4F77-8C66-85B0C0CD98A1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="BAS_Crate_Destroy_Tail" ID="{6B37FA11-80D8-41A1-8604-588F4378ED95}" ShortID="118598320">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{272D452D-C5D0-4ACA-929B-181792B83B84}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BAS_Crate_Destroy_01" ID="{7820F2AA-A10F-4176-AACE-3A535DDD23E1}" ShortID="267199321">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_01" ID="{0E0DDEEB-0523-4B68-BC6D-415995B543B1}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.347334049665712"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.347334049665712"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="332551435"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_01" ID="{0E0DDEEB-0523-4B68-BC6D-415995B543B1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Crate_Destroy_02" ID="{742B3497-41ED-4450-A07B-E50FE0D3D41C}" ShortID="359373716">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_02" ID="{ABFAA007-4923-43D5-B05E-3EB956E46874}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.58391535339064"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.58391535339064"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="956133415"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_02" ID="{ABFAA007-4923-43D5-B05E-3EB956E46874}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Crate_Destroy_03" ID="{9511BD7A-83F0-4B62-9F99-6F9E5B7EA164}" ShortID="1053522361">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_03" ID="{96F465A2-C7DD-435B-9F1C-0FC7A7CA401B}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.455694573782235"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.455694573782235"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="679762781"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_03" ID="{96F465A2-C7DD-435B-9F1C-0FC7A7CA401B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Crate_Destroy_04" ID="{88011BA0-C78F-43C6-81E1-91D67EB16B00}" ShortID="649130708">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_04" ID="{EBEA0694-701C-4987-9F32-398EA525D7AB}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.343395325931232"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.343395325931232"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="913537241"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_04" ID="{EBEA0694-701C-4987-9F32-398EA525D7AB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Crate_Destroy_05" ID="{A1498BD8-3EAA-475E-AD7C-5CFD3018B54D}" ShortID="386660944">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_05" ID="{B459E4C8-1519-455C-B4FB-75DF2851BE8C}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.335737255253104"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.335737255253104"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="983552018"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_05" ID="{B459E4C8-1519-455C-B4FB-75DF2851BE8C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Crate_Destroy_06" ID="{3B573F8D-9E6D-49F3-A092-0ECA39AA1C76}" ShortID="1050643051">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_06" ID="{E589E697-453A-45BF-A2B6-08F3A748C5C6}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.496233225883477"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.496233225883477"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy\BAS_Crate_Destroy_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="337083096"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_06" ID="{E589E697-453A-45BF-A2B6-08F3A748C5C6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<Playlist>
+								<ItemRef Name="BAS_Crate_Destroy_Head" ID="{013D60FE-156D-4B99-9AD4-86AFB4FBD553}"/>
+								<ItemRef Name="BAS_Crate_Destroy_Tail" ID="{6B37FA11-80D8-41A1-8604-588F4378ED95}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="BAS_Rock_Destroy" ID="{4E4536BD-F067-4AC0-BC57-452BF5933C45}" ShortID="1035466767">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="BAS_Destroy_Rock_Head" ID="{6C63DDCD-646A-457F-81F3-32166D271192}" ShortID="567429504">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{53046534-0D94-4862-A7E2-78477A4B3EEB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BAS_Destroy_Rock_01" ID="{923F5DB7-1D12-4814-B5E3-BC2AA6590848}" ShortID="745779511">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Destroy_Rock_01" ID="{D633F73B-576B-42E8-8810-4053B3ABBEC7}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.24534197418805"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Destroy_Rock\BAS_Destroy_Rock_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="494329004"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Destroy_Rock_01" ID="{D633F73B-576B-42E8-8810-4053B3ABBEC7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Destroy_Rock_02" ID="{E3DB10E6-D302-4A8B-B107-CE2A59891674}" ShortID="881379925">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Destroy_Rock_02" ID="{9C1C0BEC-1AC5-46EC-B07D-30630EF32762}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.391724299475887"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Destroy_Rock\BAS_Destroy_Rock_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="719299712"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Destroy_Rock_02" ID="{9C1C0BEC-1AC5-46EC-B07D-30630EF32762}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Destroy_Rock_03" ID="{00D3A93B-00D9-4024-AE2C-1DB8E6DC48C1}" ShortID="552421782">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Destroy_Rock_03" ID="{CFF02CE9-4F4B-428C-918A-8F1F54EB27CA}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.30723964382501"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Destroy_Rock\BAS_Destroy_Rock_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="242778460"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Destroy_Rock_03" ID="{CFF02CE9-4F4B-428C-918A-8F1F54EB27CA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="BAS_Destroy_Rock_Tail" ID="{181A7388-7EB4-480E-81E3-F046E9414F82}" ShortID="1040765775">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2C419BA7-6863-4F22-ABD4-371F064C8160}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BAS_Destroy_Rock_01" ID="{37C89D68-8DB7-4E0C-83E9-0224CE0E50AA}" ShortID="48240461">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Destroy_Rock_01" ID="{DC9A8225-3FF6-48F4-90AD-27CA99F4FA42}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.629653877811286"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.629653877811286"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Destroy_Rock\BAS_Destroy_Rock_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="54641769"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Destroy_Rock_01" ID="{DC9A8225-3FF6-48F4-90AD-27CA99F4FA42}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Destroy_Rock_02" ID="{47E4C7BC-F2AA-40BF-BF7C-0CB37F08C74D}" ShortID="992843947">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Destroy_Rock_02" ID="{302E0F91-84FC-47B9-ABB1-A59981EB06B4}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.557378853980617"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.557378853980617"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Destroy_Rock\BAS_Destroy_Rock_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1071517336"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Destroy_Rock_02" ID="{302E0F91-84FC-47B9-ABB1-A59981EB06B4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_Destroy_Rock_03" ID="{09341BD4-D985-44FB-ACAA-9328C1587EEF}" ShortID="220087904">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Destroy_Rock_03" ID="{1E4063D5-44B8-4E8F-A232-9CAB18ABA86F}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.526696532271445"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.526696532271445"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>BAS_Destroy_Rock\BAS_Destroy_Rock_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1001304575"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Destroy_Rock_03" ID="{1E4063D5-44B8-4E8F-A232-9CAB18ABA86F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<Playlist>
+								<ItemRef Name="BAS_Destroy_Rock_Head" ID="{6C63DDCD-646A-457F-81F3-32166D271192}"/>
+								<ItemRef Name="BAS_Destroy_Rock_Tail" ID="{181A7388-7EB4-480E-81E3-F046E9414F82}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<Folder Name="Volcanic" ID="{797D86F3-08D6-4C98-9D83-861B1A71A713}" ShortID="681780144">
+							<ChildrenList>
+								<Sound Name="DebrisDirt" ID="{43A98EA0-1D49-4739-A565-4E4EC5382C70}" ShortID="210579747">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DebrisDirt" ID="{7536EA68-F8E4-4166-99B7-B0E6A6EC11A9}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.559540889526542"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Volcanic Boulder\DebrisDirt.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="637709834"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="DebrisDirt" ID="{7536EA68-F8E4-4166-99B7-B0E6A6EC11A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Explosion" ID="{EC906603-6845-4D15-9A05-438C32F3EDA6}" ShortID="812695497">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Explosion" ID="{525067D5-96D6-440E-8643-2FBE88523218}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.77331420373027"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.47919655667145"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Volcanic Boulder\Explosion.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="81464447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Explosion" ID="{525067D5-96D6-440E-8643-2FBE88523218}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

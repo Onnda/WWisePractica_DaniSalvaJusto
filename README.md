@@ -2,7 +2,7 @@
  
 Inventory(HECHO) 
 Quest Roll(HECHO)
-Destruction()
+Destruction(HECHO)
 Ambient()
 3D emitters()
 Player_Footstep()
