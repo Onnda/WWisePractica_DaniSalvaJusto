@@ -1,7 +1,7 @@
 # WWisePractica_DaniSalvaJusto
  
 Inventory(HECHO) 
-Quest Roll()
+Quest Roll(HECHO)
 Destruction()
 Ambient()
 3D emitters()

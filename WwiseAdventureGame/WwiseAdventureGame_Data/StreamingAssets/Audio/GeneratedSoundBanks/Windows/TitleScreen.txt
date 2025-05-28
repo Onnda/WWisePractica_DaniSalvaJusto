@@ -3,18 +3,30 @@ Event	ID	Name			Wwise Object Path	Notes
 	18309885	UI_Button_Enter			\Default Work Unit\UI_Button_Enter	
 	156563189	UI_Button_Down			\Default Work Unit\UI_Button_Down	
 	750089663	UI_Menu_Teleport			\Default Work Unit\UI_Menu_Teleport	
+	808893336	UI_QuestRoll_Close			\Default Work Unit\UI_QuestRoll_Close	
+	844130829	Quest_CompleteCollection			\Default Work Unit\Quest_CompleteCollection	
+	949395292	UI_QuestRoll_Open			\Default Work Unit\UI_QuestRoll_Open	
 	2199611969	UI_Inventory_Open			\Default Work Unit\UI_Inventory_Open	
 	2278290679	UI_Inventory_Close			\Default Work Unit\UI_Inventory_Close	
 	2325560497	UI_Button_Exit			\Default Work Unit\UI_Button_Exit	
+	2792117052	UI_QuestRoll_Hide			\Default Work Unit\UI_QuestRoll_Hide	
+	3240473869	Quest_Complete			\Default Work Unit\Quest_Complete	
+	3699139167	UI_QuestRoll_Show			\Default Work Unit\UI_QuestRoll_Show	
 	3749307760	UI_Inventory_Roll			\Default Work Unit\UI_Inventory_Roll	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	45930585	BAS_Inventory_Close	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Close		46624
 	308610927	BAS_Inventory_Scroll	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Scroll		53956
-	355218689	BAS_Button_Over	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Over		21240
-	404257122	BAS_Button_Enter	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Enter		117424
-	411004490	BAS_Button_Open	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Open		56256
+	355218689	BAS_Button_Over	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Buttons\BAS_Button_Over		21240
+	404257122	BAS_Button_Enter	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Buttons\BAS_Button_Enter		117424
+	411004490	BAS_Button_Open	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Buttons\BAS_Button_Open		56256
+	443239874	Achievements	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\Achievements_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\Achievements		991296
+	451357809	Complete	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\Achievements_A328064C.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\Complete		183520
 	497085754	BAS_Inventory_Open	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Open		45368
-	713298018	BAS_Button_Close	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Close		62500
-	997981478	BAS_Button_Teleport	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Teleport		345428
+	498027075	BAS_QuestRoll_Show	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_QuestRoll_Open_79A5F1C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\BAS_QuestRoll_Show		52496
+	508404528	BAS_QuestRoll_Hide	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_QuestRoll_Close_BAA3FE74.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\BAS_QuestRoll_Hide		56760
+	569655150	BAS_QuestRoll_Close	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\BAS_QuestRoll_Close		112326
+	713298018	BAS_Button_Close	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Buttons\BAS_Button_Close		62500
+	944782391	BAS_QuestRoll_Open	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\BAS_QuestRoll_Open		104478
+	997981478	BAS_Button_Teleport	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Buttons\BAS_Button_Teleport		345428
 

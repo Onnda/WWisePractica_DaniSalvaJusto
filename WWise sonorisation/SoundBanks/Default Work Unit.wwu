@@ -13,10 +13,13 @@
 				<SoundBank Name="TitleScreen" ID="{4231AEFE-2F27-4FCE-BBFA-37083C5C40E9}">
 					<ObjectInclusionList>
 						<ObjectRef Name="UI_Menu_Teleport" ID="{A32C4A1D-91DF-4380-A0F8-48F0053E2EB0}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Close" ID="{420C7EB2-C9FA-469D-AC8A-30921E3B6E2A}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Down" ID="{CE5BBD4F-856A-46B7-B467-C4F90D33D88D}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Roll" ID="{A8EF51E8-5E38-475D-9A55-0757583D24E8}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Exit" ID="{E1892082-0F13-482A-9C38-434BEAAFF7A4}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Up" ID="{73527D28-2AE3-4924-96AF-6F859EB6918F}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Enter" ID="{69EAE792-EC8F-4943-B70D-CBCCFEB106FC}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Open" ID="{92FA5DD1-466D-4984-8983-A658AE0DC49E}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

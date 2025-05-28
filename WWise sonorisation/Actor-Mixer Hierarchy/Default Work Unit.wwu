@@ -435,6 +435,13 @@
 				<Folder Name="UI" ID="{EBD04899-F139-456E-BC73-649D5B968FD9}" ShortID="198861550">
 					<ChildrenList>
 						<Sound Name="BAS_Button_Close" ID="{D96338E4-9359-42E5-9D33-FDBDE253CD1D}" ShortID="454377605">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
@@ -549,6 +556,79 @@
 								<ActiveSource Name="BAS_Button_Teleport" ID="{054229EB-9752-4887-BEB9-E1AFD0609A72}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Folder Name="Inventory" ID="{81DE9EF9-408E-486A-B1CD-0DDC8EE4138C}" ShortID="614806057">
+							<ChildrenList>
+								<Sound Name="BAS_Inventory_Close" ID="{D8A94105-8B71-4365-B0E6-87EF3E52B619}" ShortID="347824112">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Inventory_Close" ID="{03FBE945-4330-45C2-B52A-0CDAC65573B8}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Inventory_Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="45930585"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Inventory_Close" ID="{03FBE945-4330-45C2-B52A-0CDAC65573B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Inventory_Open" ID="{70ADB2A0-4DDE-460C-BF58-566CEBEDF47F}" ShortID="1031381621">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Inventory_Open" ID="{53F9C512-A333-4184-BA72-CB2849A138A6}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Inventory_Open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="497085754"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Inventory_Open" ID="{53F9C512-A333-4184-BA72-CB2849A138A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Inventory_Scroll" ID="{B878ABBE-801C-4B9E-9536-8370216E6DE8}" ShortID="325864678">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Inventory_Scroll" ID="{8860CDC1-0284-4DEC-883B-62389F8F1CA1}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Inventory_Scroll.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308610927"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Inventory_Scroll" ID="{8860CDC1-0284-4DEC-883B-62389F8F1CA1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
