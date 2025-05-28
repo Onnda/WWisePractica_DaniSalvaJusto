@@ -11,11 +11,121 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="201590527">
+		<SoundBank Id="133642231" Language="SFX" Hash="249901218">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3664581270" Name="Ambient_Campfire_Play" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Ambient_Campfire_Play" MaxAttenuation="0.000000"/>
+				<Event Id="100151336" Name="Ambient_Campfire_Stop" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Ambient_Campfire_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="2355650095" Name="Ambient_Crystal_Hum" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Ambient_Crystal_Hum" MaxAttenuation="25.000000">
+					<IncludedMemoryFiles>
+						<File Id="197223824" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Crystal_Ringing.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Crystal_Ringing_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4275106484" Name="Ambient_Lava" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Ambient_Lava" MaxAttenuation="25.000000">
+					<IncludedMemoryFiles>
+						<File Id="949668208" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Lava.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Lava_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Ambient_River" MaxAttenuation="25.000000">
+					<IncludedMemoryFiles>
+						<File Id="299917059" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Water_River.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Water_River_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="120976108" Name="Ambient_Torch" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Ambient_Torch" MaxAttenuation="25.000000">
+					<IncludedMemoryFiles>
+						<File Id="77242983" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Torch.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2644063196" Name="Ambient_WaterDrop" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Ambient_WaterDrop" MaxAttenuation="25.000000">
+					<IncludedMemoryFiles>
+						<File Id="83734014" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_04.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_04_B1785914.wem</Path>
+						</File>
+						<File Id="85269638" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_06.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_06_962D0B2C.wem</Path>
+						</File>
+						<File Id="139058320" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_01.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_01_0E02AE9B.wem</Path>
+						</File>
+						<File Id="165141849" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_03.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_03_CFE41B11.wem</Path>
+						</File>
+						<File Id="340538205" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_05.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_05_447979E1.wem</Path>
+						</File>
+						<File Id="390159387" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_06.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_06_3857531D.wem</Path>
+						</File>
+						<File Id="396171997" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_02.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_02_B28B681D.wem</Path>
+						</File>
+						<File Id="719647022" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_05.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_05_5B2F6E00.wem</Path>
+						</File>
+						<File Id="765016661" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_04.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_04_7D9BA32B.wem</Path>
+						</File>
+						<File Id="879464617" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_02.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_02_8CECC477.wem</Path>
+						</File>
+						<File Id="977648238" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_01.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_01_6FC060A4.wem</Path>
+						</File>
+						<File Id="981927527" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_03.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_03_FA75FA7C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Ambient_Waterfall" MaxAttenuation="25.000000">
+					<IncludedMemoryFiles>
+						<File Id="491103698" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Waterfall.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Ambient_Windmill" MaxAttenuation="25.000000">
+					<IncludedMemoryFiles>
+						<File Id="29459423" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_03.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_03_10C4C929.wem</Path>
+						</File>
+						<File Id="392552050" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_01.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_01_C5579977.wem</Path>
+						</File>
+						<File Id="516245184" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_02.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_02_300BD9AE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Default Work Unit\Destruction\Destruction_Container">
 					<IncludedMemoryFiles>
 						<File Id="27952309" Language="SFX">
@@ -108,6 +218,32 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3556635307" Name="Door_DLCdoor_Open_Play" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Door_DLCdoor_Open_Play">
+					<IncludedMemoryFiles>
+						<File Id="345190667" Language="SFX">
+							<ShortName>moving-stone.wav</ShortName>
+							<Path>SFX\moving-stone_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2379298625" Name="Door_DLCdoor_Open_Stop" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Door_DLCdoor_Open_Stop">
+					<IncludedMemoryFiles>
+						<File Id="345190667" Language="SFX">
+							<ShortName>moving-stone.wav</ShortName>
+							<Path>SFX\moving-stone_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3492604883" Name="Door_TempleDoor_Open_Play" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Door_TempleDoor_Open_Play">
+					<IncludedMemoryFiles>
+						<File Id="345190667" Language="SFX">
+							<ShortName>moving-stone.wav</ShortName>
+							<Path>SFX\moving-stone_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2409105241" Name="Music_ArcadeMachine_Play" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Music_ArcadeMachine_Play" MaxAttenuation="0.000000"/>
+				<Event Id="746676127" Name="Music_ArcadeMachine_Stop" ObjectPath="\Events\Default Work Unit\Emmiters_Ambient\Music_ArcadeMachine_Stop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="152105657" Language="SFX" Hash="1337246450">

@@ -5,9 +5,23 @@
 			<ChildrenList>
 				<SoundBank Name="General" ID="{A3844B55-E626-4C37-A4A0-5CA4F9EE806E}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Torch" ID="{9D82E50C-0E59-400B-9E49-BAFED186DFF1}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_TempleDoor_Open_Play" ID="{11BC8F21-4E36-40DF-AEC3-30F04D97A46E}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Campfire_Play" ID="{5CC2EF46-5022-416E-AF03-CD7BADB4BE28}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Campfire_Stop" ID="{CEA16685-994B-42D9-B383-C01793AF436E}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Waterfall" ID="{B4A00437-E836-4366-90CB-F57B1746FC0B}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_DLCdoor_Open_Stop" ID="{4B47F714-853E-4451-816D-E5D64EE7D461}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_ArcadeMachine_Play" ID="{DEAE6ACA-3030-4568-8B1F-7C56DF97525A}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_DLCdoor_Open_Play" ID="{F25F7013-1CF9-45CA-BD78-A90FEAD22BE5}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_Rock_Destroy" ID="{681D58CB-DFCE-47DD-928F-EEC4AF2A8A2C}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_ArcadeMachine_Stop" ID="{3D70488F-B866-4B70-97C9-4C017E813EA3}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_River" ID="{E15092A5-AC80-4B7C-B4C6-BD57C9E3C0E5}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Lava" ID="{78FFE8A5-1A2F-4B90-9933-DA4DB457B1F9}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_VolcanicBoulder_Impact" ID="{6554164E-C971-4C88-AE61-0AF1D7037C2E}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Windmill" ID="{FA7151D1-C071-4CD2-AE36-A437DADB13C8}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Crystal_Hum" ID="{51F02789-D2FF-4E07-98D5-69265CA62043}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_Container" ID="{5AEE382B-1B84-4E77-9B17-E280DA0F2B14}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_WaterDrop" ID="{3D8A14C2-5208-4F81-80C1-080E82ACE627}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
