@@ -3165,6 +3165,275 @@
 								<ActiveSource Name="moving-stone" ID="{B81796CA-A077-42C2-AFA7-12D3791E3CDE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Fire_Woosh" ID="{4FF924FC-F808-41E2-89FA-BF55D50D85A3}" ShortID="254199060">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{525BF8E5-4275-4A21-873B-C8FCF1EF6395}">
+										<Attenuation Name="Object_Attenuation (Custom)" ID="{FD1A3C42-ADD9-415C-8063-05518A371234}" ShortID="365841620">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="25"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{4C0C1A15-3A9E-46DD-97EF-F860E801302E}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>8.31132</XPos>
+																	<YPos>-6.24859</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire_Woosh" ID="{94D07321-0973-48C1-A506-7059E4A1056F}">
+									<Language>SFX</Language>
+									<AudioFile>Fire_Woosh.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="528358264"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{EDBF8009-3D5A-46DB-BD46-3633847EB86E}"/>
+							</PositioningInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire_Woosh" ID="{94D07321-0973-48C1-A506-7059E4A1056F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="arcade-melody-295434" ID="{840594F4-C93C-4E5C-8034-80A6821577BF}" ShortID="735354787">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-23</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{525BF8E5-4275-4A21-873B-C8FCF1EF6395}">
+										<Attenuation Name="Object_Attenuation (Custom)" ID="{0C84771F-2685-47AB-86B3-76A7C13408E4}" ShortID="883753991">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="25"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{40FD3FB5-987A-4F1C-B9E4-460E352438FC}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>8.89196</XPos>
+																	<YPos>-6.34149</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="arcade-melody-295434" ID="{7AF3CD64-10F8-42BF-97CF-58B419D45DDA}">
+									<Language>SFX</Language>
+									<AudioFile>arcade-melody-295434.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="803533099"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="arcade-melody-295434" ID="{7AF3CD64-10F8-42BF-97CF-58B419D45DDA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="collect-points-190037" ID="{2407C260-FAC6-4B11-B72F-337ED15FAD04}" ShortID="851864224">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{525BF8E5-4275-4A21-873B-C8FCF1EF6395}">
+										<Attenuation Name="Object_Attenuation (Custom)" ID="{1153F793-4161-41B2-9485-B4EAA66D2F84}" ShortID="971450135">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="25"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{ACFF50DC-BCED-4517-98B3-A2100C1E9065}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>8.89196</XPos>
+																	<YPos>-6.34149</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="collect-points-190037" ID="{A6EB5FCA-E3F3-4EAC-8C70-463EF734B32A}">
+									<Language>SFX</Language>
+									<AudioFile>collect-points-190037.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="753033087"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="collect-points-190037" ID="{A6EB5FCA-E3F3-4EAC-8C70-463EF734B32A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<ActorMixer Name="Movement" ID="{6F14957D-1CA7-4103-B080-E628392765C0}" ShortID="744616124">

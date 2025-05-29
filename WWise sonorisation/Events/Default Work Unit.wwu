@@ -294,8 +294,28 @@
 				</Folder>
 				<Folder Name="Emmiters_Ambient" ID="{193647FB-9F15-40B4-9A5D-1CA82F245DAA}" ShortID="286402961">
 					<ChildrenList>
-						<Event Name="Ambient_Campfire_Play" ID="{5CC2EF46-5022-416E-AF03-CD7BADB4BE28}"/>
-						<Event Name="Ambient_Campfire_Stop" ID="{CEA16685-994B-42D9-B383-C01793AF436E}"/>
+						<Event Name="Ambient_Campfire_Play" ID="{5CC2EF46-5022-416E-AF03-CD7BADB4BE28}">
+							<ChildrenList>
+								<Action Name="" ID="{C756814F-45F1-4336-9F67-48D26753C2D8}" ShortID="439812441">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Torch" ID="{AA3A8569-18A4-464F-8643-E38E04BAC904}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Campfire_Stop" ID="{CEA16685-994B-42D9-B383-C01793AF436E}">
+							<ChildrenList>
+								<Action Name="" ID="{5AB5666B-FDA1-4A1F-B783-1B02F3D59C65}" ShortID="691238641">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fire_Woosh" ID="{4FF924FC-F808-41E2-89FA-BF55D50D85A3}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Ambient_Crystal_Hum" ID="{51F02789-D2FF-4E07-98D5-69265CA62043}">
 							<ChildrenList>
 								<Action Name="" ID="{68C21AB7-3773-434F-B3DB-6EB472A69BC2}" ShortID="488383796">
@@ -391,8 +411,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Music_ArcadeMachine_Play" ID="{DEAE6ACA-3030-4568-8B1F-7C56DF97525A}"/>
-						<Event Name="Music_ArcadeMachine_Stop" ID="{3D70488F-B866-4B70-97C9-4C017E813EA3}"/>
+						<Event Name="Music_ArcadeMachine_Play" ID="{DEAE6ACA-3030-4568-8B1F-7C56DF97525A}">
+							<ChildrenList>
+								<Action Name="" ID="{DDBFF406-6026-4299-A69F-AB55BF3CE255}" ShortID="491155162">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="arcade-melody-295434" ID="{840594F4-C93C-4E5C-8034-80A6821577BF}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_ArcadeMachine_Stop" ID="{3D70488F-B866-4B70-97C9-4C017E813EA3}">
+							<ChildrenList>
+								<Action Name="" ID="{405AF843-0757-45BD-822A-D4B1C4B1EDE1}" ShortID="675022625">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="collect-points-190037" ID="{2407C260-FAC6-4B11-B72F-337ED15FAD04}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Ambient_WaterDrop" ID="{3D8A14C2-5208-4F81-80C1-080E82ACE627}">
 							<ChildrenList>
 								<Action Name="" ID="{30D96819-25FB-4805-B675-B1CB622ABE8B}" ShortID="663958631">
