@@ -9,6 +9,7 @@
 						<ObjectRef Name="Door_TempleDoor_Open_Play" ID="{11BC8F21-4E36-40DF-AEC3-30F04D97A46E}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Campfire_Play" ID="{5CC2EF46-5022-416E-AF03-CD7BADB4BE28}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Footstep" ID="{F23953C4-AAA3-419A-A9F4-C2F98ABDCACE}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Region" ID="{FF0FEA3E-47CC-42B3-A70A-166057CBD1B4}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Campfire_Stop" ID="{CEA16685-994B-42D9-B383-C01793AF436E}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Waterfall" ID="{B4A00437-E836-4366-90CB-F57B1746FC0B}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door_DLCdoor_Open_Stop" ID="{4B47F714-853E-4451-816D-E5D64EE7D461}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>

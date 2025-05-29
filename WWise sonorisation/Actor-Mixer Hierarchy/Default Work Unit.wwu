@@ -7296,6 +7296,42 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<Sound Name="Music" ID="{CE1B0161-FDA6-4382-A759-F80EC68971CB}" ShortID="997361456">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>49</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="medieval-citytavern-ambient-235876" ID="{CAD82A43-4156-4709-8AE8-68E5BE74B1C9}">
+							<Language>SFX</Language>
+							<AudioFile>medieval-citytavern-ambient-235876.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="799183854"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="medieval-citytavern-ambient-235876" ID="{CAD82A43-4156-4709-8AE8-68E5BE74B1C9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

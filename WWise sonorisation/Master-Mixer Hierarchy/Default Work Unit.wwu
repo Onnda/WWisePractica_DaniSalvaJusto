@@ -75,6 +75,9 @@
 							</PropertyList>
 							<ObjectLists/>
 						</Bus>
+						<AuxBus Name="Reverbs" ID="{DD507011-E3CC-4871-818C-A42A85884CC2}">
+							<ObjectLists/>
+						</AuxBus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
