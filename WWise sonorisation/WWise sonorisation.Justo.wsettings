@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{48723852-A772-425C-B1B0-F11ACE7DDD5B}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WAG Originals\Footsteps\Walk\Wood\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WAG Originals\Impacts\"/>
 				<Property Name="Event Action List\{0B184214-E68D-4F22-93D3-DBE0CFF6B446}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0DDD2AE4-647F-47F1-B102-308B73546A53}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{380E8C85-F902-427B-B00E-6069279C101C}\x64_Expand States" Type="string" Value=""/>
@@ -75,9 +75,9 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="fZUUb6ccA0GwgOYoOSdlwD5GoumeGyNDtxOrRqvANKGLqvGEijtJQ58R9uXxVpifJe7dUDZP8EWHt/OCuy7gx+nsCKYWuF5GgkkOUkedgT15S8Bg/5yoRqNYyhkqckUUJNoFgOMg9kir4hj896y7ztkYdEj6KalJj5n4QaefX1A7Gfv1ovKXTKMTEcrOzft03R+vXtfQvEyFtHX154/+tSlFWZe6AEZNo5ZSyB1LdTVp1ffJ67GxTpl5SlCyp/M9gsStI3AO5U+4rzfpB0TURw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="jX3DXHFDtUC665di+pOhw32VFG+nHANBsIDmKDknZcCPHwxsDJ9UQq+vctZRU4xvPkai6Z4bI0O3E6tGq8A0oYuq8YSKO0lDnxH25fFWmJ91asXl37OCQ4vjk9eG2je5Je7dUDZP8EWHt/OCuy7gx5eWxUoqsQVGpUYgahon0sLp7AimFrheRoJJDlJHnYE9eUvAYP+cqEajWMoZKnJFFCTaBYDjIPZIq+IY/Pesu87ZGHRI+impSY+Z+EGnn19QOxn79aLyl0yjExHKzs37dClFWZe6AEZNo5ZSyB1LdTUE45P8PKL5TbvFqP3uhAJBadX3yeuxsU6ZeUpQsqfzPeHR8LzN0stOiEzM/xPJ/3rQ1UTdxxXrTpcoJnJx2Z0ogsStI3AO5U+4rzfpB0TURw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="5Y2cBH5Sw0iXeMb1JC/wMA=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="5odjm5v5+EWJiw42o8BMWCIzA/Ig9XBHu09zhKzzXukh4V3Gq8qPS5TmiR43M0Eo"/>
+				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="5odjm5v5+EWJiw42o8BMWBJaUkCjLF9HicKfrSRd/YciMwPyIPVwR7tPc4Ss817pIeFdxqvKj0uU5okeNzNBKA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value="sWhs6+X7WEuhRZmS/qjd7g=="/>
