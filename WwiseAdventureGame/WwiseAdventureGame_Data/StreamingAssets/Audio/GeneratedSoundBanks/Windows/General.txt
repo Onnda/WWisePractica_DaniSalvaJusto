@@ -16,6 +16,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3556635307	Door_DLCdoor_Open_Play			\Default Work Unit\Emmiters_Ambient\Door_DLCdoor_Open_Play	
 	3664581270	Ambient_Campfire_Play			\Default Work Unit\Emmiters_Ambient\Ambient_Campfire_Play	
 	3695342915	Player_WeaponImpact			\Default Work Unit\Player_WeaponImpact	
+	3741135221	Music_Region			\Default Work Unit\Music_Region	
 	4254124015	Destruction_Container			\Default Work Unit\Destruction\Destruction_Container	
 	4275106484	Ambient_Lava			\Default Work Unit\Emmiters_Ambient\Ambient_Lava	
 
@@ -170,6 +171,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	783621759	BAS_Crate_Destroy_06	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Crate_Destroy\BAS_Crate_Destroy_06_85B1B04E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\BAS_Crate_Destroy\BAS_Crate_Destroy_Head\BAS_Crate_Destroy_06		42688
 	788614760	BAS_Impact_Sword_SurfaceType_Dirt	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Impact_Sword_SurfaceType_Dirt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact_Weapon_Type\Player_Weapon_Type\Impact_Sword_Surface_Type\BAS_Impact_Sword_SurfaceType_Dirt		56902
 	791661986	BAS_Player_Footstep_sand_run_03	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Player_Footstep_sand_run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep_Surface\Player_Footstep_Sand\Player_Footstep_sand_run\BAS_Player_Footstep_sand_run_03		29132
+	799183854	medieval-citytavern-ambient-235876	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\medieval-citytavern-ambient-235876_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\medieval-citytavern-ambient-235876		26643428
 	803533099	arcade-melody-295434	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\arcade-melody-295434_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\arcade-melody-295434		2004544
 	816822854	BAS_Impact_Axe_SurfaceType_Leaves	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Impact_Axe_SurfaceType_Leaves_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact_Weapon_Type\Player_Weapon_Type\Impact_Axe_Surface_Type\BAS_Impact_Axe_SurfaceType_Leaves		44088
 	825941240	BAS_Player_Footstep_wood_walk_01	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_Player_Footstep_wood_walk_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_walk\BAS_Player_Footstep_wood_walk_01		47188

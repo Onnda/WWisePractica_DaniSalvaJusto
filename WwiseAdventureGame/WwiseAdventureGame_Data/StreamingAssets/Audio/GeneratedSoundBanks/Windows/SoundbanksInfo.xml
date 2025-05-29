@@ -48,7 +48,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="1268556335">
+		<SoundBank Id="133642231" Language="SFX" Hash="3623792627">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -306,6 +306,14 @@
 						<File Id="753033087" Language="SFX">
 							<ShortName>collect-points-190037.wav</ShortName>
 							<Path>SFX\collect-points-190037_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Default Work Unit\Music_Region">
+					<IncludedMemoryFiles>
+						<File Id="799183854" Language="SFX">
+							<ShortName>medieval-citytavern-ambient-235876.wav</ShortName>
+							<Path>SFX\medieval-citytavern-ambient-235876_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
