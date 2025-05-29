@@ -14,6 +14,7 @@
 						<ObjectRef Name="Door_DLCdoor_Open_Stop" ID="{4B47F714-853E-4451-816D-E5D64EE7D461}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_ArcadeMachine_Play" ID="{DEAE6ACA-3030-4568-8B1F-7C56DF97525A}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door_DLCdoor_Open_Play" ID="{F25F7013-1CF9-45CA-BD78-A90FEAD22BE5}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_WeaponImpact" ID="{A3479C18-BA79-47BC-8488-C0F0EC485443}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_Rock_Destroy" ID="{681D58CB-DFCE-47DD-928F-EEC4AF2A8A2C}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_ArcadeMachine_Stop" ID="{3D70488F-B866-4B70-97C9-4C017E813EA3}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_River" ID="{E15092A5-AC80-4B7C-B4C6-BD57C9E3C0E5}" WorkUnitID="{049C8DE5-527E-48C3-9778-C6F5242FF030}" Origin="Manual" Filter="7"/>

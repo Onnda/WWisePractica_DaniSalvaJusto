@@ -5694,8 +5694,14 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Dagger" ID="{E51CDF71-FC59-47DF-A8FB-C9FE4EC83CF2}" WorkUnitID="{F2033322-F520-4770-BB4F-7384ACF35EE9}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Player_Weapon_Type" ID="{40525A12-2CA3-475F-89C2-9FAD245DFD87}" WorkUnitID="{F2033322-F520-4770-BB4F-7384ACF35EE9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5707,9 +5713,19 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
 										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface_Type" ID="{9B6387E6-F99B-45F8-898B-0E36A3C04C58}" WorkUnitID="{F2033322-F520-4770-BB4F-7384ACF35EE9}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{222CB8AC-4787-4EE4-9F30-AD7D370672C4}" ShortID="928944379">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
@@ -5896,6 +5912,50 @@
 												<ItemRef Name="BAS_Impact_Axe_SurfaceType_Wood" ID="{891436D9-3E85-49EE-BF11-66EFB911700F}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Leaves" ID="{D5EC4109-5E62-4833-AF09-0B8124A9B60C}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Leaves" ID="{5DD0FBD0-4816-4E31-AA27-C1C8B0999629}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Barrel" ID="{11C40F0C-0C86-4FE5-B832-AC19116C2C88}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{222CB8AC-4787-4EE4-9F30-AD7D370672C4}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B0EB1F27-17C4-467E-86AD-ED24DFB89DC3}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Stone" ID="{63F82F35-C42F-4919-84F3-56FA374FACBF}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Crate" ID="{6EEBD99F-B32D-44E8-82D0-E40D4F5C9393}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Crate" ID="{92379D9E-411E-416E-931D-2CCE9418952C}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Dirt" ID="{F53600B6-135E-4BEE-901D-CE7A7B3F00FC}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Dirt" ID="{00F0A936-1FA1-4822-B748-19A508E5A223}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{7D18DEBE-F004-41E1-8F55-4EC9065A6DF3}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Wood" ID="{891436D9-3E85-49EE-BF11-66EFB911700F}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Grass" ID="{32D222C1-BF3B-417F-B076-8A19031078CD}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Grass" ID="{B6C1F4C2-5ED7-4CE8-B0B7-749A44FB92CC}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="Impact_Pickaxe_Surface_Type" ID="{4AC59697-B12A-4605-A546-206A1A27D2C2}" ShortID="219553985">
@@ -5905,6 +5965,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface_Type" ID="{9B6387E6-F99B-45F8-898B-0E36A3C04C58}" WorkUnitID="{F2033322-F520-4770-BB4F-7384ACF35EE9}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -6024,6 +6087,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="BAS_Impact_PickAxe_SurfaceType_Stone" ID="{3351EDAF-CD70-43D4-83B3-1F88D11DD0EB}" ShortID="1013423324">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
@@ -6095,6 +6165,50 @@
 												<ItemRef Name="BAS_Impact_PickAxe_SurfaceType_Barrel" ID="{06B16AD4-0CAE-43CA-9711-B00C93F864D3}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Leaves" ID="{D5EC4109-5E62-4833-AF09-0B8124A9B60C}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Pickaxe_SurfaceType_Leaves" ID="{0B8F52C9-0C0C-4241-962F-9C4E0ADC4391}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Barrel" ID="{11C40F0C-0C86-4FE5-B832-AC19116C2C88}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_PickAxe_SurfaceType_Barrel" ID="{06B16AD4-0CAE-43CA-9711-B00C93F864D3}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B0EB1F27-17C4-467E-86AD-ED24DFB89DC3}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_PickAxe_SurfaceType_Stone" ID="{3351EDAF-CD70-43D4-83B3-1F88D11DD0EB}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Crate" ID="{6EEBD99F-B32D-44E8-82D0-E40D4F5C9393}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_PickAxe_SurfaceType_Crate" ID="{DC709990-4FF0-4C3A-BFEB-241AAD91190D}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Dirt" ID="{F53600B6-135E-4BEE-901D-CE7A7B3F00FC}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Pickaxe_SurfaceType_Dirt" ID="{F8723CC8-F232-433A-86FA-1BD852B17075}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{7D18DEBE-F004-41E1-8F55-4EC9065A6DF3}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_PickAxe_SurfaceType_Wood" ID="{F4A746B0-E39D-4C56-A133-71297333F0E3}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Grass" ID="{32D222C1-BF3B-417F-B076-8A19031078CD}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_PickAxe_SurfaceType_Grass" ID="{C475EE81-FA37-45B1-90C0-ED891CDF780B}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="Impact_Sword_Surface_Type" ID="{BCF0D1E1-D2CD-4ECB-884C-CCFF13C9FF7A}" ShortID="24355209">
@@ -6104,6 +6218,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface_Type" ID="{9B6387E6-F99B-45F8-898B-0E36A3C04C58}" WorkUnitID="{F2033322-F520-4770-BB4F-7384ACF35EE9}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -6294,6 +6411,50 @@
 												<ItemRef Name="BAS_Impact_Sword_SurfaceType_Barrel" ID="{00CD32F0-2143-480B-9900-CDE7EBFC9C70}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Leaves" ID="{D5EC4109-5E62-4833-AF09-0B8124A9B60C}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Leaves" ID="{D71BFDA5-D8B7-477D-96CE-26D1A5678AD8}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Barrel" ID="{11C40F0C-0C86-4FE5-B832-AC19116C2C88}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Barrel" ID="{00CD32F0-2143-480B-9900-CDE7EBFC9C70}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B0EB1F27-17C4-467E-86AD-ED24DFB89DC3}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Stone" ID="{2C5EEDCC-2347-4DBC-A099-C28CAD674413}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Crate" ID="{6EEBD99F-B32D-44E8-82D0-E40D4F5C9393}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Crate" ID="{34C602DF-758C-4632-9B86-834B793DE0C3}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Dirt" ID="{F53600B6-135E-4BEE-901D-CE7A7B3F00FC}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Dirt" ID="{26333E3E-5633-4BFE-97B3-CDAD46C4F005}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{7D18DEBE-F004-41E1-8F55-4EC9065A6DF3}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Wood" ID="{8BF0D494-691B-43B9-9B31-053613C65AA6}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Grass" ID="{32D222C1-BF3B-417F-B076-8A19031078CD}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Grass" ID="{9CD9C7C0-16D9-420B-9B83-0D6301D486C2}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="Impact_Dagger_Surface_Type" ID="{5CC37D8D-4371-40B5-BAEB-9762FA93A1C3}" ShortID="172366180">
@@ -6304,9 +6465,19 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
 										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface_Type" ID="{9B6387E6-F99B-45F8-898B-0E36A3C04C58}" WorkUnitID="{F2033322-F520-4770-BB4F-7384ACF35EE9}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="BAS_Impact_Dagger_SurfaceType_Barrel" ID="{714FD197-4CCD-4393-AEAB-482930B72097}" ShortID="268609479">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
@@ -6493,15 +6664,62 @@
 												<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{147C46BD-97EF-4AF8-9FDB-93147080F6A9}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Leaves" ID="{D5EC4109-5E62-4833-AF09-0B8124A9B60C}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Leaves" ID="{03A3DF05-470A-4AEB-AA8D-6177BA1A1728}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Barrel" ID="{11C40F0C-0C86-4FE5-B832-AC19116C2C88}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Barrel" ID="{714FD197-4CCD-4393-AEAB-482930B72097}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B0EB1F27-17C4-467E-86AD-ED24DFB89DC3}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Stone" ID="{BA5F449D-F8FC-472B-8C55-BF76EF4E4E2B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Crate" ID="{6EEBD99F-B32D-44E8-82D0-E40D4F5C9393}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Crate" ID="{4DBC811E-8F1E-4803-9AA9-A93CE69E3560}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Dirt" ID="{F53600B6-135E-4BEE-901D-CE7A7B3F00FC}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{147C46BD-97EF-4AF8-9FDB-93147080F6A9}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{7D18DEBE-F004-41E1-8F55-4EC9065A6DF3}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Wood" ID="{A495ABA2-2641-4DDA-8CAF-24B9E784E51E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Grass" ID="{32D222C1-BF3B-417F-B076-8A19031078CD}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Grass" ID="{6E9C0426-0AEE-4B95-9AC6-82CF3B84E5B3}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
-								<SwitchContainer Name="Impact_Hammer_Surface_Type_01" ID="{6C0C1F8F-9F0C-4254-AFAF-72D651538C6F}" ShortID="344379014">
+								<SwitchContainer Name="Impact_Hammer_Surface_Type" ID="{6C0C1F8F-9F0C-4254-AFAF-72D651538C6F}" ShortID="344379014">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface_Type" ID="{9B6387E6-F99B-45F8-898B-0E36A3C04C58}" WorkUnitID="{F2033322-F520-4770-BB4F-7384ACF35EE9}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -6552,6 +6770,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="BAS_Impact_Hammer_SurfaceType_Dirt" ID="{C8619FDB-6011-4B2F-BE6D-8014BA4805AD}" ShortID="724741234">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
@@ -6598,6 +6823,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="BAS_Impact_Hammer_SurfaceType_Leaves" ID="{C3DBE333-7918-4170-A07D-C7DC4425CF4E}" ShortID="346538749">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27337220-5C1F-4685-A4F0-E0C2683EE615}"/>
@@ -6692,6 +6924,50 @@
 												<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Dirt" ID="{C8619FDB-6011-4B2F-BE6D-8014BA4805AD}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Leaves" ID="{D5EC4109-5E62-4833-AF09-0B8124A9B60C}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Leaves" ID="{C3DBE333-7918-4170-A07D-C7DC4425CF4E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Barrel" ID="{11C40F0C-0C86-4FE5-B832-AC19116C2C88}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Barrel" ID="{1773785C-E93A-4B43-AD5D-44FF9B481AB7}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B0EB1F27-17C4-467E-86AD-ED24DFB89DC3}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Stone" ID="{C8F7F2D8-B5E0-4A1F-AF8E-DEC0A48FD42E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Crate" ID="{6EEBD99F-B32D-44E8-82D0-E40D4F5C9393}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Crate" ID="{28085550-3664-4E77-9132-C0A4F49008F7}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Dirt" ID="{F53600B6-135E-4BEE-901D-CE7A7B3F00FC}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Dirt" ID="{C8619FDB-6011-4B2F-BE6D-8014BA4805AD}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{7D18DEBE-F004-41E1-8F55-4EC9065A6DF3}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Wood" ID="{515A0B5D-8C93-4BC8-AD95-FA93DE9C680D}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Grass" ID="{32D222C1-BF3B-417F-B076-8A19031078CD}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Grass" ID="{43B19368-C216-40DA-99F1-C3CDBD67AB14}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>
@@ -6705,7 +6981,7 @@
 										<ItemRef Name="Impact_Dagger_Surface_Type" ID="{5CC37D8D-4371-40B5-BAEB-9762FA93A1C3}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="Impact_Hammer_Surface_Type_01" ID="{6C0C1F8F-9F0C-4254-AFAF-72D651538C6F}"/>
+										<ItemRef Name="Impact_Hammer_Surface_Type" ID="{6C0C1F8F-9F0C-4254-AFAF-72D651538C6F}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Impact_Pickaxe_Surface_Type" ID="{4AC59697-B12A-4605-A546-206A1A27D2C2}"/>
@@ -6714,6 +6990,38 @@
 										<ItemRef Name="Impact_Sword_Surface_Type" ID="{BCF0D1E1-D2CD-4ECB-884C-CCFF13C9FF7A}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Sword" ID="{AE068A4F-E4D8-4D7E-A5FE-CEA774F6EFE4}"/>
+										<ItemList>
+											<ItemRef Name="Impact_Sword_Surface_Type" ID="{BCF0D1E1-D2CD-4ECB-884C-CCFF13C9FF7A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Pickaxe" ID="{BA72CA6F-C6D8-471D-8389-2EC46842E864}"/>
+										<ItemList>
+											<ItemRef Name="Impact_Pickaxe_Surface_Type" ID="{4AC59697-B12A-4605-A546-206A1A27D2C2}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Dagger" ID="{E51CDF71-FC59-47DF-A8FB-C9FE4EC83CF2}"/>
+										<ItemList>
+											<ItemRef Name="Impact_Dagger_Surface_Type" ID="{5CC37D8D-4371-40B5-BAEB-9762FA93A1C3}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Axe" ID="{2EF1F9A5-3AC1-4F66-88AC-525A56113C04}"/>
+										<ItemList>
+											<ItemRef Name="Impact_Axe_Surface_Type" ID="{FC93E304-A23C-4DF9-BBC5-A8FDEE840241}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Hammer" ID="{5B106CEB-ACEC-4E74-A88D-8E3FD33E5694}"/>
+										<ItemList>
+											<ItemRef Name="Impact_Hammer_Surface_Type" ID="{6C0C1F8F-9F0C-4254-AFAF-72D651538C6F}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
