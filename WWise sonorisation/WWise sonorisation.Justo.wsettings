@@ -57,16 +57,16 @@
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{5CC37D8D-4371-40B5-BAEB-9762FA93A1C3}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_5_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_7_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_9_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="kGO6f/FM+kSdpfxl9m6PwA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value="v4lP8eAKjUOPjbaZGeAmnA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_16_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_17_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_18_1" Type="string" Value="DIiy9uWF+kehJmRbXf2azA=="/>
@@ -75,16 +75,17 @@
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ8wP6THIQg0xFvb4j1+U5fNY="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="jX3DXHFDtUC665di+pOhw32VFG+nHANBsIDmKDknZcCEpxLxJza3Qba5JLRS+9Jwjx8MbAyfVEKvr3LWUVOMb8IR5GIT+ZZCqM5XyI1NTpg+RqLpnhsjQ7cTq0arwDShi6rxhIo7SUOfEfbl8VaYn3VqxeXfs4JDi+OT14baN7kl7t1QNk/wRYe384K7LuDHl5bFSiqxBUalRiBqGifSwunsCKYWuF5GgkkOUkedgT15S8Bg/5yoRqNYyhkqckUUJNoFgOMg9kir4hj896y7ztkYdEj6KalJj5n4QaefX1A7Gfv1ovKXTKMTEcrOzft0KUVZl7oARk2jllLIHUt1NQTjk/w8ovlNu8Wo/e6EAkFp1ffJ67GxTpl5SlCyp/M94dHwvM3Sy06ITMz/E8n/etDVRN3HFetOlygmcnHZnSiCxK0jcA7lT7ivN+kHRNRH"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="5Y2cBH5Sw0iXeMb1JC/wMA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="5odjm5v5+EWJiw42o8BMWBJaUkCjLF9HicKfrSRd/YciMwPyIPVwR7tPc4Ss817pIeFdxqvKj0uU5okeNzNBKA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="PWb5G8KRaEGAWZ2anComkw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value="sWhs6+X7WEuhRZmS/qjd7g=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_9_1" Type="string" Value="fT9h6NO6zUWj7VBVdvMSdw=="/>
 				<Property Name="RTPC\GameParameterSimValue\{50BF1CAD-0E76-442F-9069-554D20E1B52F}" Type="Real64" Value="80"/>
 				<Property Name="RTPC\GameParameterSimValue\{96AAA7D5-D83A-4BCC-8A3A-EB4C7336F40B}" Type="Real64" Value="51.5471167369902"/>
+				<Property Name="RTPC\GameParameterSimValue\{C7E2D07A-A97C-4AB3-AA23-2BD17CD48A1C}" Type="Real64" Value="0"/>
 				<Property Name="RTPC\GameParameterSimValue\{D8FE69BE-CBEC-425C-A4CA-0968C821040D}" Type="Real64" Value="8"/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="PWb5G8KRaEGAWZ2anComkw=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>

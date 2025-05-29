@@ -4,23 +4,54 @@
 		<WorkUnit Name="Default Work Unit" ID="{724CFA03-8310-454C-BDBE-23D7E5397CD6}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{396D93F4-2402-47A0-ADB8-FC37DD4798CF}" ShortID="102277383">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{50BF1CAD-0E76-442F-9069-554D20E1B52F}" WorkUnitID="{EB6C68B1-FBE5-4B58-A145-9992FEA8DDEE}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{564055FF-D7F4-4BE0-9512-6968A28A112F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{3E52DC7C-ABBA-42CF-A947-1067110AD160}" WorkUnitID="{2D6AE5DE-ABB9-42E4-A9E4-7BEEBC5BF5BB}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="SFX" ID="{CFFA4CCC-9DE9-4C6A-8213-D53522550180}">
+						<Bus Name="Music" ID="{FB915529-9D72-48A7-87F1-73836D9A373A}">
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<RTPCList>
-										<RTPC Name="" ID="{06357A33-8A08-4981-B2FE-E9297D1228A6}" ShortID="542621741">
+										<RTPC Name="" ID="{06E879E9-895F-4F2F-8DE7-B622CAE376A3}" ShortID="286661022">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="MenuSlider_Master_Volume" ID="{50BF1CAD-0E76-442F-9069-554D20E1B52F}" WorkUnitID="{EB6C68B1-FBE5-4B58-A145-9992FEA8DDEE}"/>
+													<ObjectRef Name="MenuSlider_Music_Volume" ID="{C7E2D07A-A97C-4AB3-AA23-2BD17CD48A1C}" WorkUnitID="{EB6C68B1-FBE5-4B58-A145-9992FEA8DDEE}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{271112E1-B6D7-4C83-B58A-853D9BA07BA1}">
+											<Curve Name="" ID="{9CC2FC5F-9A23-483E-A4FB-1E417EF9A430}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
@@ -29,6 +60,7 @@
 														<XPos>0</XPos>
 														<YPos>-200</YPos>
 														<Flags>5</Flags>
+														<SegmentShape>SCurve</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>100</XPos>

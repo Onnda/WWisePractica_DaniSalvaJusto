@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="103">
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\WWise sonorisation.wproj" DateLow="1748480062" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\WWise sonorisation.Justo.wsettings" DateLow="1748485546" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\WWise sonorisation.Justo.wsettings" DateLow="1748517767" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Virtual Acoustics\Default Work Unit.wwu" DateLow="1748445906" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Triggers\Default Work Unit.wwu" DateLow="1748445906" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Switches\Default Work Unit.wwu" DateLow="1748484037" DateHigh="0"/>
@@ -17,7 +17,7 @@
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Metadata\Default Work Unit.wwu" DateLow="1748445906" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1748445906" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1748445906" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Game Parameters\Default Work Unit.wwu" DateLow="1748480062" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Game Parameters\Default Work Unit.wwu" DateLow="1748517767" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Events\Default Work Unit.wwu" DateLow="1748485546" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Effects\Factory Effects.wwu" DateLow="1748456988" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Effects\Default Work Unit.wwu" DateLow="1748445906" DateHigh="0"/>
@@ -27,5 +27,5 @@
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Control Surface Sessions\Default Work Unit.wwu" DateLow="1748445906" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Audio Devices\Default Work Unit.wwu" DateLow="1748456988" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Attenuations\Default Work Unit.wwu" DateLow="1748456988" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1748485546" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1748517767" DateHigh="0"/>
 </ValidationCache>
