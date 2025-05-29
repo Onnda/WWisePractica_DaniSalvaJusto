@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F2033322-F520-4770-BB4F-7384ACF35EE9}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{F2033322-F520-4770-BB4F-7384ACF35EE9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F2033322-F520-4770-BB4F-7384ACF35EE9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Surface_Type" ID="{9B6387E6-F99B-45F8-898B-0E36A3C04C58}">
+					<ChildrenList>
+						<Switch Name="Barrel" ID="{11C40F0C-0C86-4FE5-B832-AC19116C2C88}"/>
+						<Switch Name="Crate" ID="{6EEBD99F-B32D-44E8-82D0-E40D4F5C9393}"/>
+						<Switch Name="Dirt" ID="{F53600B6-135E-4BEE-901D-CE7A7B3F00FC}"/>
+						<Switch Name="Enemy_EvilCrawler" ID="{65F22ED7-F941-4858-B125-DEC5D756603D}"/>
+						<Switch Name="Enemy_EvilHead" ID="{F593A2C6-0158-4226-ACE3-84671E390265}"/>
+						<Switch Name="Enemy_EvilSpitPlant" ID="{8653D803-5607-4F90-AA32-DFE4F9B68D3D}"/>
+						<Switch Name="Grass" ID="{32D222C1-BF3B-417F-B076-8A19031078CD}"/>
+						<Switch Name="Leaves" ID="{D5EC4109-5E62-4833-AF09-0B8124A9B60C}"/>
+						<Switch Name="Metal" ID="{0FCA87F2-3FD2-4ECB-97D0-41781A65C0AE}"/>
+						<Switch Name="Sand" ID="{AED8A236-4103-47B3-A936-F834E93AB563}"/>
+						<Switch Name="Stone" ID="{B0EB1F27-17C4-467E-86AD-ED24DFB89DC3}"/>
+						<Switch Name="Water" ID="{7BACFBC7-68D2-4B32-A851-78CB5B11B7E0}"/>
+						<Switch Name="Wood" ID="{7D18DEBE-F004-41E1-8F55-4EC9065A6DF3}"/>
+						<Switch Name="Rubble" ID="{C96AF27C-E369-4763-8706-C49CEC8279ED}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_MovementSpeed" ID="{C65DE121-CAAB-4B8F-94E6-891E37334128}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Run" ID="{400D6648-399A-4D5B-8114-9EEE875338C3}"/>
+						<Switch Name="Walk" ID="{78320D89-8786-4C68-B480-C40D0F3A6FCF}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Player_MovementSpeed" ID="{96AAA7D5-D83A-4BCC-8A3A-EB4C7336F40B}"/>
+						<Curve Name="" ID="{62FAC070-57B8-4167-9D11-39F05A9A2C69}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>49.999</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

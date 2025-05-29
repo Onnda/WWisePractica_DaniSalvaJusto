@@ -417,6 +417,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Player_Footstep" ID="{F23953C4-AAA3-419A-A9F4-C2F98ABDCACE}">
+					<ChildrenList>
+						<Action Name="" ID="{34399415-26DE-46A1-A032-DCEFBE2B3952}" ShortID="799740005">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep_Surface" ID="{A608ECE9-B816-465E-8249-0E52479D813D}" WorkUnitID="{84F1AA8B-3B8A-4349-9F11-F6E5F156989F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
