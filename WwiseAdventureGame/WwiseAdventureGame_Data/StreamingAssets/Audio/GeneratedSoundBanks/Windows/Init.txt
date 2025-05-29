@@ -1,3 +1,10 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2471758783	Player_MovementSpeed			\Default Work Unit\Player_MovementSpeed	
+
+Switch	ID	Name	Switch Group			Notes
+	712161704	Run	Player_MovementSpeed			
+	2108779966	Walk	Player_MovementSpeed			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1333239961	MenuSlider_Master_Volume			\Default Work Unit\MenuSlider_Master_Volume	
 

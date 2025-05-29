@@ -1,6 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	4077685701	Ambient_Region_Dungeon			\Default Work Unit\Ambient\Ambient_Region_Dungeon	
 
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	174784172	BAS_amb_dungeon_day_background_loop_01	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_dungeon_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\BAS_amb_dungeon_day_background_loop_01		24641600
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	174784172	BAS_amb_dungeon_day_background_loop_01	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_dungeon_day_background_loop_01_D79FB2B7.wem	174784172.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambient\BAS_amb_dungeon_day_background_loop_01	
 

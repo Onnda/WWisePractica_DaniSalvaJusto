@@ -4,7 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1055992335	BAS_amb_pineforest_night_background_loop_01	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_pineforest_night_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Pineforest\BAS_amb_pineforest_night_background_loop_01		13829348
-	1071741258	BAS_amb_forest_day_background_Pine	C:\Users\User\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_forest_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Pineforest\BAS_amb_forest_day_background_Pine		27990080
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	491156754	BAS_amb_forest_day_background_Pine	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_forest_day_background_loop_01_D79FB2B7.wem	491156754.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Pineforest\BAS_amb_forest_day_background_Pine	
+	1055992335	BAS_amb_pineforest_night_background_loop_01	C:\Users\Justo\Documents\GitHub\WWisePractica_DaniSalvaJusto\WWise sonorisation\.cache\Windows\SFX\BAS_amb_pineforest_night_background_loop_01_D79FB2B7.wem	1055992335.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Pineforest\BAS_amb_pineforest_night_background_loop_01	
 
